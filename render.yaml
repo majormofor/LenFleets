@@ -1,0 +1,20 @@
+# Deploy this repository as a Render Blueprint. No database is required.
+services:
+  - type: web
+    name: lensfleet-website
+    runtime: node
+    plan: free
+    buildCommand: npm ci --include=dev && npm run build
+    startCommand: npm start
+    healthCheckPath: /healthz
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: HOST
+        value: 0.0.0.0
+      - key: CONTACT_TO_EMAIL
+        value: info@lensfleet.com
+# Optional email delivery secrets are added in Render's Environment settings:
+# RESEND_API_KEY and CONTACT_FROM_EMAIL. Do not commit their real values.
+# RENDER_EXTERNAL_URL supplies the allowed origin and canonical domain.
+# Override SITE_ORIGIN and PUBLIC_SITE_URL when using a confirmed custom domain.

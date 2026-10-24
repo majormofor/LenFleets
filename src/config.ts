@@ -2,7 +2,7 @@
 export const config = {
   formEndpoint: '',
   apps: {
-    nest: { ios: '', android: '' },
+    home: { ios: '', android: '' },
     sentinel: { ios: '', android: '' },
     tracker: { ios: '', android: '' },
     dashboard: { ios: '', android: '' },
