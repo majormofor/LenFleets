@@ -117,6 +117,8 @@ This repository includes `render.yaml` for one **Free Node web service**, with n
 
 If creating the service manually instead of using the Blueprint, select **Web Service / Node / Free**, use the build and start commands above, set `HOST=0.0.0.0`, and configure the same optional email secrets.
 
+The `prebuild` script checks for the local compiler, React type definitions, and bundler. If Render initially installs only production dependencies, it runs `npm ci --include=dev` before compilation. This also supports a manually configured `npm run build` command. Keep the recommended build command `npm ci --include=dev && npm run build` for reproducible installations.
+
 Free Render web services sleep after 15 minutes of inactivity and can take about a minute to wake. Usage limits apply. There is no persistent database or upload storage in this marketing website. Do not add a paid database or disk for this deployment.
 
 Official references: https://render.com/docs/free , https://render.com/docs/web-services , https://render.com/docs/environment-variables .

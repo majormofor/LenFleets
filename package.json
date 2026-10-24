@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite --host 127.0.0.1",
+    "prebuild": "node scripts/ensure-build-dependencies.mjs",
     "build": "tsc -b && vite build && node scripts/prerender.mjs",
     "preview": "vite preview --host 127.0.0.1",
     "test": "node --test scripts/contact.test.mjs",
