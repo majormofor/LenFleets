@@ -1,0 +1,20 @@
+/* Review-supplied neutral dark palette. Replace with the official kit when supplied. */
+:root {
+  color-scheme: dark;
+  --surface: #1a1c1e;
+  --surface-raised: #27292b;
+  --surface-muted: #151719;
+  --ink: #f3f3f3;
+  --ink-muted: #c9c9ca;
+  --ink-subtle: #a9aaac;
+  --line: #3a3d40;
+  --blue: #4aa0f6;
+  --focus: #81befe;
+  --success: #93d4a9;
+  --danger: #ffb0b0;
+  --warning: #e8ca8c;
+  --label: 600 12px/1.5 Geom, Arial, sans-serif;
+  --shadow: 0 20px 50px color-mix(in srgb, var(--surface-muted) 38%, transparent);
+}
+
+.label{font:var(--label);text-transform:uppercase;letter-spacing:.09em}

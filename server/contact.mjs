@@ -15,7 +15,7 @@ export function validateContact(input) {
   if(!interests.includes(clean.interest))errors.interest='Choose an area of interest.';
   if(!errors.message && clean.message.length<10)errors.message='Use at least 10 characters in your message.';
   if(typeof input.elapsedMs!=='number'||!Number.isFinite(input.elapsedMs)||input.elapsedMs<800)errors.form='Please take a moment to complete your enquiry.';
-  clean.requestType=input.requestType==='demo'?'demo':'enquiry';
+  clean.requestType=input.requestType==='waitlist'?'waitlist':input.requestType==='demo'?'demo':'enquiry';
   return {errors,clean};
 }
 
@@ -44,7 +44,7 @@ export function createContactHandler(env={}, {fetchImpl=fetch,now=Date.now}={}) 
       const {errors,clean}=validateContact(input);
       if(Object.keys(errors).length)return json(res,422,{accepted:false,errors,message:'Please check your enquiry details.'});
       if(clean.website)return json(res,422,{accepted:false,message:'This enquiry could not be accepted. Please contact us directly.'});
-      if(!env.RESEND_API_KEY||!env.CONTACT_FROM_EMAIL||!env.CONTACT_TO_EMAIL)return json(res,503,{accepted:false,message:'Your enquiry has not been sent. The contact delivery service is not configured yet. Please email info@lensfleet.com or call +44 7511 802724.'});
+      if(!env.RESEND_API_KEY||!env.CONTACT_FROM_EMAIL||!env.CONTACT_TO_EMAIL)return json(res,503,{accepted:false,message:'Your enquiry has not been sent. The contact delivery service is not configured yet. Please email info@lensfleet.com.'});
       const text=`LensFleet ${clean.requestType}\n\nName: ${clean.name}\nEmail: ${clean.email}\nOrganisation: ${clean.company||'Not provided'}\nInterest: ${clean.interest}\n\n${clean.message}`;
       const delivery=await fetchImpl('https://api.resend.com/emails',{method:'POST',signal:AbortSignal.timeout(12000),headers:{Authorization:`Bearer ${env.RESEND_API_KEY}`,'Content-Type':'application/json'},body:JSON.stringify({from:env.CONTACT_FROM_EMAIL,to:[env.CONTACT_TO_EMAIL],reply_to:clean.email,subject:`LensFleet ${clean.requestType}: ${clean.interest}`,text})});
       const result=await delivery.json().catch(()=>null);

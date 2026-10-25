@@ -22,7 +22,7 @@ npm start
 
 `check` runs TypeScript, the production build, static prerendering, page/link/asset checks, and contact handler tests. `npm start` serves the built website and the real enquiry endpoint at http://127.0.0.1:4173. Set `HOST` and `PORT` for your deployment; place it behind HTTPS and a trusted reverse proxy.
 
-The build writes 15 prerendered HTML pages, a 404 page, metadata, robots.txt, and sitemap.xml. Pages contain their content without needing JavaScript for indexing. Client navigation uses the same normal URLs. Static hosting is supported for the pages, but the enquiry endpoint requires the included Node server or an equivalent server-side adapter.
+The build writes 22 prerendered HTML pages, a 404 page, metadata, robots.txt, and sitemap.xml. Pages contain their content without needing JavaScript for indexing. Client navigation uses the same normal URLs. Static hosting is supported for the pages, but the enquiry endpoint requires the included Node server or an equivalent server-side adapter.
 
 ## Routes
 
@@ -41,6 +41,9 @@ The build writes 15 prerendered HTML pages, a 404 page, metadata, robots.txt, an
 - `/contact` (also `/contact?demo=1`)
 - `/privacy`
 - `/terms`
+- `/devices` and `/pricing`
+- `/security-privacy`
+- `/resources` and three guide pages
 
 ## Enquiry delivery
 
@@ -52,7 +55,7 @@ Copy `.env.example` to `.env` and configure these **server-only** values:
 - `SITE_ORIGIN`: exact allowed origin for form submissions, including scheme and port when applicable.
 - `HOST`, `PORT`: production server bind address and port.
 
-No credentials are exposed in the frontend. Restart the server after environment changes. Test delivery with a real mailbox before launch. Success is displayed only after the provider accepts the message and returns an ID; this means accepted for delivery, not guaranteed inbox receipt. Without credentials, `/api/contact` returns HTTP 503 and the form clearly says nothing was sent, with direct email and telephone alternatives.
+No credentials are exposed in the frontend. Restart the server after environment changes. Test delivery with a real mailbox before launch. Success is displayed only after the provider accepts the message and returns an ID; this means accepted for delivery, not guaranteed inbox receipt. Without credentials, `/api/contact` returns HTTP 503 and the form clearly says nothing was sent, with a direct email alternative.
 
 The handler validates data server-side as well as client-side. It rejects invalid interests, header-injection attempts, oversize content, invalid origin, a filled honeypot, and very fast submissions. It limits attempts to 5 per socket IP per 10 min. This is an in-memory, per-process limit. Add trusted edge rate limiting and, when required, a properly integrated challenge service for multi-instance or high-traffic deployment. Forwarding headers are not trusted for rate limiting by default. No enquiry content is logged or saved locally.
 
@@ -64,15 +67,15 @@ Set `PUBLIC_SITE_URL` to the confirmed production **origin** before building. Fo
 
 When set, the build emits canonical URLs, absolute social-card URLs, a populated sitemap, and crawlable robots.txt. Until set, robots.txt blocks indexing and the sitemap intentionally has no invented domain. Privacy, terms, and 404 pages have `noindex` metadata. Legal drafts are excluded from the sitemap.
 
-Each route has unique titles, descriptions, Open Graph and Twitter sharing metadata. Organization structured data uses only the provided brand and contact details.
+Each route has unique titles, descriptions, Open Graph and Twitter sharing metadata. Organization structured data uses the supplied company disclosure; Home and Sentinel pages include Product structured data without invented offers or ratings.
 
 ## Design and assets
 
 The supplied LensFleet brand materials now inform the design: graphite `#27292B`, neutral greys, restrained blue interface accents, the Geom typeface, and the supplied falcon/wordmark. Both Sentinel and LensFleet Home share this system.
 
 - Original assets remain unchanged in the user-supplied Downloads folder.
-- The website logo is a crop of the approved horizontal artwork in `Email signature-01.png`; it does not expose the signature's personal information.
-- The favicon is derived from `Profile pics-01.jpg`.
+- The transparent SVG logo preserves the original vector outlines extracted from page 6 of the supplied brand PDF.
+- The SVG favicon and 16/32/180/192/512 PNG icons derive from that vector falcon; a web manifest is included.
 - Geom is self-hosted with its SIL Open Font License in `public/fonts/OFL.txt`.
 - Asset sources and credits are recorded in `ASSETS.md`.
 
@@ -85,7 +88,7 @@ The authoritative Figma URL remains https://www.figma.com/design/wIrDFC6gDdRSROp
 3. Confirm the public domain, set `PUBLIC_SITE_URL`, and rebuild.
 4. Confirm device/app-specific feature availability and approve the supplied product copy before public use.
 5. Compare with Figma when access is available.
-6. Complete visual desktop/mobile browser QA. Automated browser inspection was blocked by the browser security policy during this session; production build, route, link, asset, and server tests passed.
+6. Browser QA completed for the responsive header, menu focus, Escape, navigation, currency switching and waitlist validation. Final checks on the actual Render domain and target phones remain.
 
 ## Code organisation
 
@@ -93,7 +96,7 @@ The authoritative Figma URL remains https://www.figma.com/design/wIrDFC6gDdRSROp
 - `src/components/`: shared navigation, visuals, sections, forms, and UI.
 - `src/pages.tsx`: route components built from the shared system.
 - `src/App.tsx`: normal-URL navigation and page selection.
-- `src/styles/site.css`: brand tokens and responsive presentation.
+- `src/styles/tokens.css`: shared colours and label tokens; `site.css` and `review.css`: responsive presentation.
 - `server/contact.mjs`: validated server-only delivery boundary.
 - `server/index.mjs`: production static server and enquiry route.
 - `scripts/prerender.mjs`: static page metadata, content, sitemap, and robots output.
@@ -122,3 +125,7 @@ The `prebuild` script checks for the local compiler, React type definitions, and
 Free Render web services sleep after 15 minutes of inactivity and can take about a minute to wake. Usage limits apply. There is no persistent database or upload storage in this marketing website. Do not add a paid database or disk for this deployment.
 
 Official references: https://render.com/docs/free , https://render.com/docs/web-services , https://render.com/docs/environment-variables .
+
+## Review implementation
+
+See `REVIEW-FIXES.md` for the supplied review IDs, completed changes and owner-dependent launch requirements. The initial homepage asset estimate is about 282 KB with gzip and 800px AVIF images, including all six sector photographs, the font and the extra hero image. This is a build estimate, not a measured Lagos 3G result.

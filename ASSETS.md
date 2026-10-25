@@ -4,10 +4,13 @@
 
 Source folder: `C:/Users/Uzochukwu/Downloads/LensFleet File set - Copy/LensFleet File set - Copy/`.
 
-- `Email signature-01.png`: supplied horizontal falcon + LensFleet wordmark, cropped without altering the mark's geometry, proportions, or arrangement. Used as `public/brand/logo-dark.png`. Personal contact/signature details are excluded.
+- `Email signature-01.png`: supplied horizontal falcon + LensFleet wordmark, cropped without altering the mark's geometry, proportions, or arrangement. Archived as `public/brand/logo-dark.png`; no longer used by the page header or footer. Personal contact/signature details are excluded.
 - `Profile pics-01.jpg`: supplied monochrome falcon mark. Outer whitespace trimmed and reduced for `public/brand/mark.png`.
 - `LensFleet Brand Book  New.pdf`: reviewed primary palette (page 8), secondary usage (page 9), Geom typography (page 10), and logo usage (pages 5–7).
 - `Full Logo Open file.svg`: inspected; its rendered content is the supplied icon set rather than the horizontal wordmark. It is not shipped as the website logo.
+
+- `LensFleet Brand Book  New.pdf`, page 6: original falcon and wordmark vector outlines extracted into `lensfleet-lockup-white.svg` and `lensfleet-mark.svg`. Only the fill was set for a light logo; geometry and arrangement were preserved. PNG icons at 16/32/180/192/512 derive from that vector mark. The requested separate v2 kit has not been supplied.
+- Photo derivatives: 480/800/1200px AVIF and WebP versions of the credited source photographs, served with responsive picture sources.
 
 The original assets have not been modified. The public social card is a website composition using the approved wordmark and supplied marketing headline.
 

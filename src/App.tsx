@@ -1,6 +1,8 @@
 import { useEffect, useState } from 'react';
+import { structuredData } from './content/schema';
 import { Header, Footer } from './components/Layout';
 import { AboutPage, ContactPage, HomePage, HouseholdPage, IndustryPage, LegalPage, NotFoundPage, PlatformPage, SentinelPage, SolutionsPage } from './pages';
+import { DevicesPage, PricingPage, ResourcesPage, SecurityPage, GuidePage, guides } from './MorePages';
 import { metadata, solutions } from './content/site';
 
 export function App({initialPath='/',initialSearch=''}:{initialPath?:string;initialSearch?:string}){
@@ -16,7 +18,7 @@ export function App({initialPath='/',initialSearch=''}:{initialPath?:string;init
   const set=(selector:string,value:string)=>document.querySelector(selector)?.setAttribute('content',value);
   set('meta[name="description"]',meta.description);set('meta[property="og:title"]',meta.title);set('meta[property="og:description"]',meta.description);set('meta[name="twitter:title"]',meta.title);set('meta[name="twitter:description"]',meta.description);
   const canonical=document.querySelector<HTMLLinkElement>('link[rel="canonical"]');const origin=canonical?.dataset.origin;if(canonical&&origin){canonical.href=origin+location.path;set('meta[property="og:url"]',origin+location.path)}
-  const observer=new IntersectionObserver(entries=>entries.forEach(entry=>{if(entry.isIntersecting){entry.target.classList.add('is-visible');observer.unobserve(entry.target)}}),{threshold:.05});document.querySelectorAll('.section-heading,.group-card,.solution-card,.steps-grid article').forEach(el=>{el.classList.add('reveal');observer.observe(el)});return()=>observer.disconnect();
+  let schema=document.getElementById('site-schema');if(!schema){schema=document.createElement('script');schema.id='site-schema';schema.setAttribute('type','application/ld+json');document.head.append(schema)}schema.textContent=JSON.stringify(structuredData(location.path,origin||''));
  },[location.path]);
  const path=location.path;
  const solution=solutions.find(s=>path===`/solutions/${s.slug}`);
@@ -27,9 +29,14 @@ export function App({initialPath='/',initialSearch=''}:{initialPath?:string;init
  else if(path==='/home')page=<HouseholdPage/>;
  else if(path==='/solutions')page=<SolutionsPage/>;
  else if(solution)page=<IndustryPage solution={solution}/>;
+ else if(path==='/devices')page=<DevicesPage/>;
+ else if(path==='/pricing')page=<PricingPage/>;
+ else if(path==='/resources')page=<ResourcesPage/>;
+ else if(path==='/security-privacy')page=<SecurityPage/>;
+ else if(guides.some(g=>path==='/resources/'+g.slug))page=<GuidePage slug={path.split('/').pop()!}/>;
  else if(path==='/about')page=<AboutPage/>;
- else if(path==='/contact')page=<ContactPage key={location.search} demo={new URLSearchParams(location.search).has('demo')}/>;
+ else if(path==='/contact')page=<ContactPage key={location.search} demo={new URLSearchParams(location.search).has('demo')} waitlist={new URLSearchParams(location.search).get('waitlist')==='home'} quote={new URLSearchParams(location.search).get('quote')||''}/>;
  else if(path==='/privacy'||path==='/terms')page=<LegalPage type={path.slice(1) as 'privacy'|'terms'}/>;
  else page=<NotFoundPage/>;
- return <><a className="skip-link" href="#main">Skip to content</a><Header path={path}/><main id="main" tabIndex={-1} key={path}>{page}</main><Footer/></>;
+ return <><a className="skip-link" href="#main">Skip to content</a><Header path={path+location.search}/><main id="main" tabIndex={-1} key={path}>{page}</main><Footer/></>;
 }
