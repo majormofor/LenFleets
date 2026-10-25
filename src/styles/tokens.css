@@ -1,20 +1,73 @@
-/* Review-supplied neutral dark palette. Replace with the official kit when supplied. */
+/* Generated from brand-book/tokens.json (LensFleet v2). Run npm run build to regenerate. */
 :root {
   color-scheme: dark;
   --surface: #1a1c1e;
   --surface-raised: #27292b;
-  --surface-muted: #151719;
+  --surface-sunken: #121314;
   --ink: #f3f3f3;
   --ink-muted: #c9c9ca;
-  --ink-subtle: #a9aaac;
+  --ink-subtle: #939495;
   --line: #3a3d40;
+  --graphite-900: #27292b;
+  --graphite-700: #5d5f60;
+  --graphite-500: #939495;
+  --graphite-300: #c9c9ca;
+  --white: #ffffff;
   --blue: #4aa0f6;
-  --focus: #81befe;
-  --success: #93d4a9;
-  --danger: #ffb0b0;
-  --warning: #e8ca8c;
-  --label: 600 12px/1.5 Geom, Arial, sans-serif;
-  --shadow: 0 20px 50px color-mix(in srgb, var(--surface-muted) 38%, transparent);
+  --blue-text: #87c0f9;
+  --blue-tint-300: #4aa0f6;
+  --blue-tint-200: #87c0f9;
+  --blue-tint-100: #143250;
+  --red: #fb2d3e;
+  --red-tint-300: #cf434e;
+  --red-tint-200: #df8289;
+  --red-tint-100: #4a1a1d;
+  --turquoise: #0fdbf2;
+  --turquoise-text: #4be4f5;
+  --turquoise-tint-300: #4be4f5;
+  --turquoise-tint-200: #87edf9;
+  --turquoise-tint-100: #0d3a40;
+  --green: #34bf57;
+  --green-text: #67cf81;
+  --green-tint-300: #67cf81;
+  --green-tint-200: #9adfab;
+  --green-tint-100: #163a22;
+  --focus: #87c0f9;
+  --overlay: #27292bb3;
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-10: 40px;
+  --space-12: 48px;
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 16px;
+  --radius-full: 999px;
+  --shadow-raised: 0 8px 24px rgba(0, 0, 0, 0.5);
+  --font-sans: "Geom", "Outfit", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, "SF Mono", Menlo, monospace;
+  --type-display: 700 56px/60px var(--font-sans);
+  --tracking-display: -0.01em;
+  --type-h1: 600 32px/38px var(--font-sans);
+  --type-h2: 600 24px/30px var(--font-sans);
+  --type-h3: 600 18px/24px var(--font-sans);
+  --type-body: 400 16px/24px var(--font-sans);
+  --type-body-small: 400 14px/20px var(--font-sans);
+  --type-caption: 500 12px/16px var(--font-sans);
+  --type-label: 600 12px/16px var(--font-sans);
+  --tracking-label: 0.06em;
+  --type-button: 600 15px/20px var(--font-sans);
+  --type-data: 500 14px/20px var(--font-mono);
+  --type-data-large: 500 28px/32px var(--font-mono);
+  --surface-muted: var(--surface-sunken);
+  --success: var(--green-text);
+  --danger: var(--red-tint-200);
+  --warning: var(--ink-muted);
+  --label: var(--type-label);
+  --shadow: var(--shadow-raised);
 }
-
-.label{font:var(--label);text-transform:uppercase;letter-spacing:.09em}
+.label{font:var(--type-label);text-transform:uppercase;letter-spacing:var(--tracking-label)}

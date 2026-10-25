@@ -9,12 +9,20 @@ Source folder: `C:/Users/Uzochukwu/Downloads/LensFleet File set - Copy/LensFleet
 - `LensFleet Brand Book  New.pdf`: reviewed primary palette (page 8), secondary usage (page 9), Geom typography (page 10), and logo usage (pages 5–7).
 - `Full Logo Open file.svg`: inspected; its rendered content is the supplied icon set rather than the horizontal wordmark. It is not shipped as the website logo.
 
-- `LensFleet Brand Book  New.pdf`, page 6: original falcon and wordmark vector outlines extracted into `lensfleet-lockup-white.svg` and `lensfleet-mark.svg`. Only the fill was set for a light logo; geometry and arrangement were preserved. PNG icons at 16/32/180/192/512 derive from that vector mark. The requested separate v2 kit has not been supplied.
+- `LensFleet Brand Book  New.pdf`, page 6: original falcon and wordmark vector outlines extracted into `lensfleet-lockup-white.svg` and `lensfleet-mark.svg`. Only the fill was set for a light logo; geometry and arrangement were preserved. PNG icons at 16/32/180/192/512 derive from that vector mark. The shared v2 artifact lists the official SVG names, but previews/downloads are unavailable there. Existing approved vector artwork is retained.
 - Photo derivatives: 480/800/1200px AVIF and WebP versions of the credited source photographs, served with responsive picture sources.
 
 The original assets have not been modified. The public social card is a website composition using the approved wordmark and supplied marketing headline.
 
+## Brand Book v2
+
+Owner-shared source: https://claude.ai/artifact/863GxHmfAjTnDfkktzdjvv#readme . Visible text and JSON were saved under `brand-book/`. Colours and narrative derive from these files; unavailable asset files were not reconstructed.
+
 ## Typography
+
+Outfit is the v2 book’s required web substitute, self-hosted as Latin and Latin-extended variable WOFF2 subsets from the Google Fonts CSS API (https://fonts.googleapis.com/css2?family=Outfit:wght@400..700&display=swap). SIL Open Font License: `public/fonts/OFL-Outfit.txt`, from https://github.com/google/fonts/tree/main/ofl/outfit .
+
+Earlier font, retained but no longer loaded:
 
 Geom by Thanos Poulakidas, served from the Google Fonts distribution and self-hosted for this website. Project: https://github.com/ThanosPoulakidas/Geom . License: SIL Open Font License 1.1, included in `public/fonts/OFL.txt`.
 

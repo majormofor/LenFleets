@@ -71,12 +71,12 @@ Each route has unique titles, descriptions, Open Graph and Twitter sharing metad
 
 ## Design and assets
 
-The supplied LensFleet brand materials now inform the design: graphite `#27292B`, neutral greys, restrained blue interface accents, the Geom typeface, and the supplied falcon/wordmark. Both Sentinel and LensFleet Home share this system.
+The owner-supplied Brand Book v2 defines the dark palette, type styles, spacing, radii and voice. Its official `tokens.json` is saved under `brand-book/`; the build generates the stylesheet and About narrative from these sources. Outfit is the book’s web font substitute; the supplied falcon/wordmark remains unchanged. Both Sentinel and LensFleet Home share this system.
 
 - Original assets remain unchanged in the user-supplied Downloads folder.
 - The transparent SVG logo preserves the original vector outlines extracted from page 6 of the supplied brand PDF.
 - The SVG favicon and 16/32/180/192/512 PNG icons derive from that vector falcon; a web manifest is included.
-- Geom is self-hosted with its SIL Open Font License in `public/fonts/OFL.txt`.
+- Outfit is self-hosted with its SIL Open Font License in `public/fonts/OFL-Outfit.txt`. The earlier Geom asset and its licence are retained but no longer loaded.
 - Asset sources and credits are recorded in `ASSETS.md`.
 
 The authoritative Figma URL remains https://www.figma.com/design/wIrDFC6gDdRSROpUIQBmoZ/LensFleet-team-library?node-id=7769-4&p=f&m=dev. It was not accessible via the connected tools. No claim is made that the website reproduces the Figma library. The user-supplied brand book and logo artwork provide the implemented brand reference.

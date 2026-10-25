@@ -39,3 +39,14 @@ assert.ok(!(await readFile('dist/robots.txt','utf8')).includes('Disallow: /priva
 for(const css of ['src/styles/site.css','src/styles/review.css'])assert.ok(!/#[0-9a-f]{3,8}\b/i.test(await readFile(css,'utf8')),`${css}: non-token colour`);
 for(const size of [16,32,180,192,512])await access(`dist/brand/icon-${size}.png`);
 console.log('Review checks passed: six-section home, responsive assets, schema, manifest, heading spacing and token colours.');
+
+const officialTokens=JSON.parse(await readFile('brand-book/tokens.json','utf8'));
+const generatedTokens=await readFile('src/styles/tokens.css','utf8');
+for(const token of officialTokens.color.tokens){const value=typeof token.value==='string'?token.value:token.value.dark;assert.ok(generatedTokens.includes(`--${token.name}: ${value};`),`Brand token differs: ${token.name}`)}
+const brandCopy=JSON.parse(await readFile('src/content/brand-book.json','utf8'));
+const about=await readFile('dist/about/index.html','utf8');
+for(const text of [brandCopy.mission,brandCopy.vision])assert.ok(about.includes(text),'About must use the supplied v2 mission and vision');
+assert.ok(about.includes('a status update is not proof'),'About brand story missing');
+assert.ok(home.includes('/fonts/outfit-latin.woff2'),'Brand web font preload missing');
+assert.ok(!home.includes('app.lensfleet.com'),'Sign in must stay removed');
+console.log('Brand Book v2 checks passed: exact palette, mission/vision/story, Outfit preload, no sign-in link.');

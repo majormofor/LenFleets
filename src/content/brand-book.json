@@ -1,0 +1,8 @@
+{
+  "story": [
+    "LensFleet began with a simple observation: a status update is not proof. \"Delivered\", \"visited\", \"patrolled\", \"on site\" are claims, and every dispute, insurance claim and complaint starts with a claim nobody can check. LensFleet puts a lens on the movement — a dashcam on the bus, a body camera on the guard or carer, a tracker on the generator or the dog — and turns the claim into something that can be seen, placed on a map, timestamped and shared.",
+    "We started with goods in transit. The same need turned out to exist everywhere people and things move: a security firm that has to answer for an incident, a care agency whose client's daughter wants to know the carer came, a vlogger who wants viewers to ride along live, a plant-hire company that keeps losing track of generators. The platform did not change; the sectors multiplied. Today LensFleet serves six of them and is built so that the seventh needs no new code — only new words in the interface."
+  ],
+  "mission": "To give any organisation or household a camera-enabled, location-aware platform that records what happened, where and when, protects that record, and lets it be shared with exactly the people who need to see it — no more, no less.",
+  "vision": "A world in which the movement of people, goods and services is transparent, trusted and verifiable, so that the people who depend on it can act on evidence rather than assumption."
+}
