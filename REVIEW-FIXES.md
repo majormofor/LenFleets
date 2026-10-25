@@ -13,13 +13,13 @@ The supplied review is a work list, not evidence that device partnerships, hosti
 | F8 | Accessible field validation and success/error states; acceptance requires the email provider to return an ID; Home waitlist enquiries labelled separately. | Configure Resend if needed; live Render URL and actual mailbox receipt test. Acceptance is not proof of inbox delivery. |
 | C1–C3 | Direct product copy, one Platform setup note, hidden decorative arrows, no heading arrows; hero has one honest example-data caption. | Real staging screenshots, recordings and 15-second loop. |
 | C4 | Trust strip uses company/product facts only. | Confirm pilot operator, Teltonika/Jimi/Shelleyes integration, data country and compliance statements before adding them. |
-| C5 | Sign-in link to requested app URL; Devices and Pricing pages; NGN/GBP itemised-quote paths. | Verify sign-in destination; approved models, device photos and actual prices. |
+| C5 | Devices and Pricing pages; NGN/GBP itemised-quote paths. Sign in removed from desktop and mobile navigation at the owner’s request on 25 October 2026. | Approved models, device photos and actual prices. |
 | C6 | Existing stock photography retained with responsive formats and accurate descriptions. | Documentary photos and Lagos pilot shoot. Not marked complete. |
 | C7 | Six homepage sections: hero, trust strip, three proofs, sectors, one scenario, CTA. Toolkit stays on Platform. | None. |
 | C8 | Removed reveal observer; content remains fully visible; reduced-motion support preserved. | None. |
 | C9 | AVIF/WebP 480/800/1200 variants, picture/srcset, lazy images, dimensions; gzip for production text assets. | Actual Render/Lagos 3G measurement. Estimated full-scroll resources: 281,918 bytes with gzip, 800px AVIF, font and extra hero image. Not a Lighthouse/network measurement. |
 | C10 | Unique page descriptions; Organization JSON-LD; Product JSON-LD on Home/Sentinel; client navigation updates schema. Canonicals use the configured origin or Render origin. | Confirm domain connection and set PUBLIC_SITE_URL=https://lensfleet.com before rebuilding for that domain. |
-| C11 | Personal phone removed; email and registered office retained. | Approved WhatsApp Business / Nigeria contact. No number inferred. |
+| C11 | Owner-approved info@lensfleet.com and +44 7511 802724 shown on Contact and in the footer, with email/call links and registered office. | WhatsApp not added: the number was approved as a phone contact, with no WhatsApp service confirmed. |
 | C12 | Visible 2px focus rings; decorative icons hidden; existing keyboard tab controls retained. | None beyond target-device QA. |
 | X1 | No fabricated case study. | Pilot results, operator permission and quote. |
 | X2 | Security & privacy page gives deployment questions and a contact path. | Written encryption, access-log, data-location, retention and deletion specifications before publishing those as guarantees. |

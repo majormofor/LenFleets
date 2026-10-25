@@ -1,6 +1,6 @@
 import { Bus, ShieldCheck, HeartHandshake, PawPrint, Video, Package, MapPin, Camera, Route, Bell, ScanLine, Share2, ChartNoAxesCombined, LocateFixed, History, Users, Radio, Clock3, LockKeyhole } from 'lucide-react';
 
-export const contact = { email: 'info@lensfleet.com' };
+export const contact = { email: 'info@lensfleet.com', phone: '+44 7511 802724', phoneHref: '+447511802724' };
 // Company disclosure supplied by the owner in the review. No personal contacts are inferred.
 export const company = { name:'LensFleet Limited', number:'16970123', jurisdiction:'England and Wales', address:'Flat 2 Milligan House, 99 Avenue Road, London N14 4FH' };
 export const designReference = 'https://www.figma.com/design/wIrDFC6gDdRSROpUIQBmoZ/LensFleet-team-library?node-id=7769-4&p=f&m=dev';
