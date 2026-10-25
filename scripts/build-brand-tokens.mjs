@@ -27,5 +27,5 @@ ${aliases}
 `);
 const book=await readFile('brand-book/01-brand-book.md','utf8');
 const section=name=>{const match=book.match(new RegExp(`## ${name}\\n\\n([\\s\\S]*?)(?=\\n## |$)`));if(!match)throw new Error(`Missing brand-book section: ${name}`);return match[1].trim()};
-await writeFile('src/content/brand-book.json',JSON.stringify({story:section('Brand story').split('\n\n'),mission:section('Mission'),vision:section('Vision')},null,2)+'\n');
-console.log(`Applied ${tokens.color.tokens.length} official dark colour tokens and Brand Book v2 narrative.`);
+await writeFile('src/content/brand-book.json',JSON.stringify({story:["LensFleet began with a simple observation: a status update is not proof. Delivered, visited, patrolled and on site are updates. We’re building a way to review the locations, times and recordings behind them.","The planned platform brings together six areas: transport and delivery, security, care, pets, creators and assets. Sentinel is the planned business product; LensFleet Home is the planned household experience."],mission:section('Mission'),vision:section('Vision')},null,2)+'\n');
+console.log(`Applied ${tokens.color.tokens.length} official dark colour tokens and development-stage brand narrative.`);

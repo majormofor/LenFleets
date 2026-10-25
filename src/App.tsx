@@ -35,7 +35,7 @@ export function App({initialPath='/',initialSearch=''}:{initialPath?:string;init
  else if(path==='/security-privacy')page=<SecurityPage/>;
  else if(guides.some(g=>path==='/resources/'+g.slug))page=<GuidePage slug={path.split('/').pop()!}/>;
  else if(path==='/about')page=<AboutPage/>;
- else if(path==='/contact')page=<ContactPage key={location.search} demo={new URLSearchParams(location.search).has('demo')} waitlist={new URLSearchParams(location.search).get('waitlist')==='home'} quote={new URLSearchParams(location.search).get('quote')||''}/>;
+ else if(path==='/contact')page=<ContactPage key={location.search} demo={new URLSearchParams(location.search).has('demo')||new URLSearchParams(location.search).has('early')} waitlist={new URLSearchParams(location.search).get('waitlist')==='home'} quote={new URLSearchParams(location.search).get('quote')||''}/>;
  else if(path==='/privacy'||path==='/terms')page=<LegalPage type={path.slice(1) as 'privacy'|'terms'}/>;
  else page=<NotFoundPage/>;
  return <><a className="skip-link" href="#main">Skip to content</a><Header path={path+location.search}/><main id="main" tabIndex={-1} key={path}>{page}</main><Footer/></>;

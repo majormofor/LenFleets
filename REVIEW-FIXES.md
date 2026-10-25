@@ -1,5 +1,7 @@
 # LensFleet review implementation — 25 October 2026
 
+**Current stage:** The owner subsequently confirmed that the app is a work in progress. The website now presents capabilities as planned, uses registration of interest instead of demo bookings, and removes the unconfirmed active-pilot claim. These changes supersede earlier launch-ready wording below. See `review/CLAIMS-AUDIT.md`.
+
 The supplied review is a work list, not evidence that device partnerships, hosting locations, prices or pilot results are verified. No such facts were invented.
 
 | Review IDs | Implemented | Remaining dependency |
@@ -9,10 +11,10 @@ The supplied review is a work list, not evidence that device partnerships, hosti
 | F3 | Full-screen native modal dialog, scroll lock, focus trap, initial close-button focus, Escape, route/link close and focus restoration. | Final target-device checks. |
 | F4–F5 | Readable nav/buttons/footer, 12px labels, neutral dark palette, shared token stylesheet, no hex colours in layout stylesheets. | Official v2 tokens now imported from the owner’s shared Brand Book. Token colours, spacing, radii, type styles and floating-layer shadow generate from the saved source. Outfit is self-hosted as its required web substitute. |
 | F6 | Supplied company disclosure and office in footer; expanded privacy/terms drafts; explicit privacy/terms robots exclusions removed. | Approved legal policies, lawful bases, mailbox/waitlist retention and processor/hosting details. Drafts remain noindex and excluded from the sitemap. This P0 item is NOT complete. |
-| F7 | Empty disc removed; original falcon displayed. About now uses the exact v2 story, mission and vision from the shared Brand Book. | Founder identity and UK/Nigeria team details are not specified in this book and remain unclaimed. The Lagos bus pilot is now sourced to its sector chapter. |
+| F7 | Empty disc removed; original falcon displayed. About uses the v2 mission and vision, with the story adapted to the owner-confirmed development stage. | Founder identity and UK/Nigeria team details are not specified in this book and remain unclaimed. The book mentions a Lagos pilot, but current status/permission remain unverified; that claim is now withheld. |
 | F8 | Accessible field validation and success/error states; acceptance requires the email provider to return an ID; Home waitlist enquiries labelled separately. | Configure Resend if needed; live Render URL and actual mailbox receipt test. Acceptance is not proof of inbox delivery. |
 | C1–C3 | Brand Book v2 copy sweep: live views/recordings, consent wording, direct product copy, one Platform setup note, hidden decorative arrows, no heading arrows; hero has one honest example-data caption. | Real staging screenshots, recordings and 15-second loop. |
-| C4 | Trust strip uses UK company, Lagos bus pilot and product facts from the supplied brand sources. | Teltonika/Jimi integrations, data country and compliance statements remain unconfirmed. Shelleyes is a reference device class in the book, not proof of a tested integration. |
+| C4 | Trust strip uses owner-supplied UK company details, Lagos development focus and planned camera/GPS scope; the active-pilot claim is removed. | Teltonika/Jimi integrations, data country and compliance statements remain unconfirmed. Shelleyes is a reference device class in the book, not proof of a tested integration. |
 | C5 | Devices and Pricing pages; NGN/GBP itemised-quote paths. Sign in removed from desktop and mobile navigation at the owner’s request on 25 October 2026. | Approved models, device photos and actual prices. |
 | C6 | Existing stock photography retained with responsive formats and accurate descriptions. | Documentary photos and Lagos pilot shoot. Not marked complete. |
 | C7 | Six homepage sections: hero, trust strip, three proofs, sectors, one scenario, CTA. Toolkit stays on Platform. | None. |
@@ -38,4 +40,4 @@ Live Render deployment and mailbox receipt have not been verified. The missing l
 
 ## Brand Book supplied after the initial review
 
-Source: https://claude.ai/artifact/863GxHmfAjTnDfkktzdjvv#readme . Visible v2 tokens, story, mission, vision, logo rules, sectors and voice guidance were read and saved under `brand-book/`. F5’s official palette and F7’s v2 narrative requirements are now implemented. The book contains additional semantic colours and neutral tokens, so the website follows that palette rather than an artificial limit of two greys. See `brand-book/SOURCE.md` for source and access limits.
+Source: https://claude.ai/artifact/863GxHmfAjTnDfkktzdjvv#readme . Visible v2 tokens, story, mission, vision, logo rules, sectors and voice guidance were read and saved under `brand-book/`. F5’s official palette and F7’s v2 narrative requirements are now implemented. The published story was later adapted to the owner-confirmed development stage. The book contains additional semantic colours and neutral tokens, so the website follows that palette rather than an artificial limit of two greys. See `brand-book/SOURCE.md` for source and access limits.

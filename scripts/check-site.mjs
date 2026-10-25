@@ -8,6 +8,8 @@ const descriptions=new Set();
 let checkedLinks=0;
 for(const path of expected){
  const html=await readFile(join('dist',path,'index.html'),'utf8');
+ assert.ok(html.includes('aria-label="Product development status"'),`${path}: development notice missing`);
+ assert.ok(!/Piloting with|piloting with|Book a demo|Book a Sentinel demo|serves six/.test(html),`${path}: unverified live availability or pilot claim`);
  const title=html.match(/<title>([^<]+)<\/title>/)?.[1];
  assert.ok(title,`${path}: page title missing`);assert.ok(!titles.has(title),`${path}: duplicate page title`);titles.add(title);
  assert.equal((html.match(/<h1(?:\s|>)/g)||[]).length,1,`${path}: exactly one h1 required`);
@@ -50,3 +52,8 @@ assert.ok(about.includes('a status update is not proof'),'About brand story miss
 assert.ok(home.includes('/fonts/outfit-latin.woff2'),'Brand web font preload missing');
 assert.ok(!home.includes('app.lensfleet.com'),'Sign in must stay removed');
 console.log('Brand Book v2 checks passed: exact palette, mission/vision/story, Outfit preload, no sign-in link.');
+
+assert.ok(home.includes('We’re building GPS tracking'),'Home must state development stage');
+assert.ok(home.includes('/contact?early=1'),'Early-interest path missing');
+for(const path of ['/home','/platform/sentinel']){const html=await readFile(join('dist',path,'index.html'),'utf8');const data=JSON.parse(html.match(/<script id="site-schema" type="application\/ld\+json">([\s\S]*?)<\/script>/)[1]);const product=data['@graph'].find(item=>item['@type']==='Product');assert.equal(product.additionalProperty.value,'In development');assert.ok(!product.offers,'No offers before launch');}
+console.log('Development-stage checks passed: all-page notice, no active-pilot/demo promises, interest CTA and accurate product schema.');

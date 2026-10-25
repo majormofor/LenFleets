@@ -49,29 +49,29 @@ export const interests = ['Fleet and logistics','Security','Care services','Asse
 export const navItems = [{name:'Platform',path:'/platform'},{name:'Solutions',path:'/solutions'},{name:'LensFleet Home',path:'/home'},{name:'Devices',path:'/devices'},{name:'Pricing',path:'/pricing'}];
 export const routes = ['/', '/platform', '/platform/sentinel', '/home', '/solutions', ...solutions.map(s=>`/solutions/${s.slug}`), '/about', '/contact', '/privacy', '/terms','/devices','/pricing','/security-privacy','/resources','/resources/dashcam-lagos-bus','/resources/body-cameras-care','/resources/verified-delivery-record'];
 export const metadata: Record<string,{title:string;description:string}> = {
-"/devices":{"title": "GPS trackers and cameras | LensFleet devices", "description": "Explore vehicle trackers, dashcams, body cameras, passenger counting, asset trackers and household device categories."},
-"/pricing":{"title": "Pricing and quotes | LensFleet", "description": "Request an itemised LensFleet quote in Nigerian naira or British pounds, with devices, connectivity and installation discussed."},
-"/security-privacy":{"title": "Security and privacy questions | LensFleet", "description": "Plan access, sharing and retention for location and camera records. Request the security specification for your proposed setup."},
+"/devices":{"title": "GPS trackers and cameras | LensFleet devices", "description": "Explore the device categories planned for LensFleet: vehicle trackers, dashcams, body cameras, passenger counting and household devices."},
+"/pricing":{"title": "Pricing and quotes | LensFleet", "description": "LensFleet pricing is not yet published. Register interest in future Nigerian naira or British pound plans and share your requirements."},
+"/security-privacy":{"title": "Security and privacy questions | LensFleet", "description": "Plan access, sharing and retention for location and camera records. Discuss the security requirements for a future setup."},
 "/resources":{"title": "Practical tracking and camera guides | LensFleet", "description": "Read practical guides to Lagos bus dashcams, care body cameras and useful delivery records before choosing your setup."},
 "/resources/dashcam-lagos-bus":{"title": "Choosing a dashcam for a Lagos bus | LensFleet", "description": "Plan camera views, connectivity, power and a complete journey test before choosing a dashcam for your Lagos bus."},
 "/resources/body-cameras-care":{"title": "Body cameras and consent in care | LensFleet", "description": "Questions to discuss with your care provider and privacy adviser before introducing body cameras on care visits."},
-"/resources/verified-delivery-record":{"title": "What a verified delivery record looks like | LensFleet", "description": "Learn how a useful delivery record connects a journey, destination, timestamp and relevant clip for authorised review."},
+"/resources/verified-delivery-record":{"title": "What a useful delivery record brings together | LensFleet", "description": "Learn how a useful delivery record connects a journey, destination, timestamp and relevant clip for authorised review."},
 
- '/':{title:'LensFleet — Proof in motion.',description:'Live cameras, GPS tracking, and verified journey records. See where it happened, when it happened, and what happened with LensFleet.'},
- '/platform':{title:'The connected platform | LensFleet',description:'Connect GPS trackers, cameras, and useful records with authorised sharing. Explore the LensFleet platform and its capabilities.'},
- '/platform/sentinel':{title:'Sentinel for businesses | LensFleet',description:'Connect fleet visibility, camera recordings, passenger counting, asset insights, and controlled evidence sharing with Sentinel.'},
- '/home':{title:'LensFleet Home — Stay close to what matters',description:'Family location sharing, pet tracking, home camera views, and useful household alerts. Shared with consent.'},
+ '/':{title:'LensFleet — Proof in motion. In development.',description:'LensFleet is in development: a planned platform for GPS tracking, camera views and journey records. Explore the plans and register interest.'},
+ '/platform':{title:'The connected platform | LensFleet',description:'Explore the planned LensFleet platform for GPS tracking, camera views, journey records and sharing. The app is in development.'},
+ '/platform/sentinel':{title:'Sentinel for businesses | LensFleet',description:'Sentinel is in development. Explore planned vehicle tracking, camera views, passenger counting, asset insights and journey records.'},
+ '/home':{title:'LensFleet Home — Stay close to what matters',description:'LensFleet Home is in development. Explore planned family location sharing, pet tracking and household camera views, and join the waitlist.'},
  '/solutions':{title:'Solutions for your world | LensFleet',description:'Explore visual verification for transport, security, care, pets, content creators, and physical assets.'},
  '/about':{title:'About LensFleet | Visibility, trust, and proof',description:'Why LensFleet brings location information and visual verification together. Read our mission, vision, and approach.'},
- '/contact':{title:'Contact LensFleet | Book a demo',description:'Discuss your cameras, tracking, and verification needs. Discuss vehicle tracking, cameras, household connections and setup costs. Email info@lensfleet.com.'},
+ '/contact':{title:'Contact LensFleet | Register interest',description:'Register interest in LensFleet while the app is in development. Discuss planned tracking, camera views and household connections with the team.'},
  '/privacy':{title:'Privacy policy — Draft for review | LensFleet',description:'Privacy policy draft status. Approved legal terms and data-handling information are required before public launch.'},
  '/terms':{title:'Terms of service — Draft for review | LensFleet',description:'Terms of service draft status. Legal review is required before publication.'},
- ...Object.fromEntries(solutions.map(s=>[`/solutions/${s.slug}`,{title:`${s.name} | LensFleet`,description:s.intro}])),
+ ...Object.fromEntries(solutions.map(s=>[`/solutions/${s.slug}`,{title:`${s.name} | LensFleet`,description:`Explore the planned LensFleet workflow for ${s.name.toLowerCase()}. The app is in development; visuals use example data.`}])),
 };
 export const principles = [
  {icon:ScanLine,title:'Proof over promise',text:'A clip, a position, a count, a timestamp. Every feature should help you answer what happened.'},
  {icon:LockKeyhole,title:'Transparent, not intrusive',text:'Show what is needed to the people who need it. Sharing is deliberate, time-boxed and revocable.'},
  {icon:Users,title:'Plain language',text:'Clear words for the Lagos bus owner and the London care manager. Specific times, places and counts.'},
  {icon:Share2,title:'One platform, many fronts',text:'One platform for business operations and household needs, with words and defaults that fit your world.'},
- {icon:MapPin,title:'Built for where it will run',text:'Patchy networks, hot cabins, two currencies. Design for the pilot in Lagos first.'},
+ {icon:MapPin,title:'Built for where it will run',text:'Patchy networks, hot cabins, two currencies. Design for Lagos conditions first.'},
 ];

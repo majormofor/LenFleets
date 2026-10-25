@@ -1,0 +1,2615 @@
+{
+  "scope": "Rendered main text plus shared tab/group content; classification is in CLAIMS-AUDIT.md. No product capability is independently verified.",
+  "pages": [
+    {
+      "route": "/about",
+      "blocks": [
+        {
+          "element": "h1",
+          "text": "Less assumption. More understanding."
+        },
+        {
+          "element": "p",
+          "text": "LensFleet began with a simple observation: a status update is not proof. Delivered, visited, patrolled and on site are updates. We’re building a way to review the locations, times and recordings behind them."
+        },
+        {
+          "element": "p",
+          "text": "The planned platform brings together six areas: transport and delivery, security, care, pets, creators and assets. Sentinel is the planned business product; LensFleet Home is the planned household experience."
+        },
+        {
+          "element": "p",
+          "text": "LensFleet is a UK company developing its product for transport, service, security and household needs, including Lagos."
+        },
+        {
+          "element": "h2",
+          "text": "A clearer view of everyday operations."
+        },
+        {
+          "element": "p",
+          "text": "To give any organisation or household a camera-enabled, location-aware platform that records what happened, where and when, protects that record, and lets it be shared with exactly the people who need to see it — no more, no less."
+        },
+        {
+          "element": "h2",
+          "text": "A world where the record is clear."
+        },
+        {
+          "element": "p",
+          "text": "A world in which the movement of people, goods and services is transparent, trusted and verifiable, so that the people who depend on it can act on evidence rather than assumption."
+        },
+        {
+          "element": "h2",
+          "text": "Precise technology. A human purpose."
+        },
+        {
+          "element": "h3",
+          "text": "Proof over promise"
+        },
+        {
+          "element": "p",
+          "text": "A clip, a position, a count, a timestamp. Every feature should help you answer what happened."
+        },
+        {
+          "element": "h3",
+          "text": "Transparent, not intrusive"
+        },
+        {
+          "element": "p",
+          "text": "Show what is needed to the people who need it. Sharing is deliberate, time-boxed and revocable."
+        },
+        {
+          "element": "h3",
+          "text": "Plain language"
+        },
+        {
+          "element": "p",
+          "text": "Clear words for the Lagos bus owner and the London care manager. Specific times, places and counts."
+        },
+        {
+          "element": "h3",
+          "text": "One platform, many fronts"
+        },
+        {
+          "element": "p",
+          "text": "One platform for business operations and household needs, with words and defaults that fit your world."
+        },
+        {
+          "element": "h3",
+          "text": "Built for where it will run"
+        },
+        {
+          "element": "p",
+          "text": "Patchy networks, hot cabins, two currencies. Design for Lagos conditions first."
+        },
+        {
+          "element": "h2",
+          "text": "Visibility with responsibility."
+        },
+        {
+          "element": "p",
+          "text": "Useful visibility respects consent, permissions, and access controls. Share the moment with the people authorised to see it."
+        },
+        {
+          "element": "h3",
+          "text": "Permission-based access"
+        },
+        {
+          "element": "p",
+          "text": "Give each person access for a clear purpose."
+        },
+        {
+          "element": "h3",
+          "text": "Controlled, time-limited sharing"
+        },
+        {
+          "element": "p",
+          "text": "Use share links to give recipients records."
+        },
+        {
+          "element": "h3",
+          "text": "Evidence access history"
+        },
+        {
+          "element": "p",
+          "text": "Review access logs around evidence records."
+        },
+        {
+          "element": "h3",
+          "text": "Consent-aware camera use"
+        },
+        {
+          "element": "p",
+          "text": "Use cameras with permission and clear expectations."
+        },
+        {
+          "element": "h2",
+          "text": "Tell us what you need to see."
+        },
+        {
+          "element": "p",
+          "text": "LensFleet is in development. Register your interest and share your requirements."
+        }
+      ]
+    },
+    {
+      "route": "/contact",
+      "blocks": [
+        {
+          "element": "h1",
+          "text": "Let’s connect the dots."
+        },
+        {
+          "element": "p",
+          "text": "LensFleet is in development. Register your interest, ask about our plans, or tell us what you would need from the product."
+        },
+        {
+          "element": "small",
+          "text": "Email LensFleet"
+        },
+        {
+          "element": "strong",
+          "text": "info@lensfleet.com"
+        },
+        {
+          "element": "small",
+          "text": "Call LensFleet"
+        },
+        {
+          "element": "strong",
+          "text": "+44 7511 802724"
+        },
+        {
+          "element": "p",
+          "text": "Registered office: Flat 2 Milligan House, 99 Avenue Road, London N14 4FH. For Nigeria enquiries, tell us your city and the setup you need."
+        },
+        {
+          "element": "h2",
+          "text": "Tell us what you need."
+        },
+        {
+          "element": "p",
+          "text": "LensFleet is in development. Tell us what you need so we can discuss your requirements."
+        },
+        {
+          "element": "p",
+          "text": "Required fields are marked *. Please avoid sharing sensitive personal or incident details. Read the privacy notice and its approval status before sending."
+        }
+      ]
+    },
+    {
+      "route": "/devices",
+      "blocks": [
+        {
+          "element": "h1",
+          "text": "Start with what you need to see."
+        },
+        {
+          "element": "p",
+          "text": "These are the hardware categories we are designing for. A tested compatibility list, device specifications and installation options have not been published yet. Tell us what your setup needs."
+        },
+        {
+          "element": "h2",
+          "text": "Vehicle GPS trackers"
+        },
+        {
+          "element": "p",
+          "text": "Vehicle locations, journey history and geofence events."
+        },
+        {
+          "element": "p",
+          "text": "Tell us the vehicle type, power supply and how often you need updates."
+        },
+        {
+          "element": "h2",
+          "text": "Dashcams"
+        },
+        {
+          "element": "p",
+          "text": "Road views, live views and journey playback."
+        },
+        {
+          "element": "p",
+          "text": "Choose the views you need and tell us how long recordings must be kept."
+        },
+        {
+          "element": "h2",
+          "text": "Passenger counting cameras"
+        },
+        {
+          "element": "p",
+          "text": "Count passengers entering and leaving transport buses."
+        },
+        {
+          "element": "p",
+          "text": "Share the door layout and the counting reports your operation needs."
+        },
+        {
+          "element": "h2",
+          "text": "Body-worn cameras"
+        },
+        {
+          "element": "p",
+          "text": "Live field views and recorded incident playback."
+        },
+        {
+          "element": "p",
+          "text": "Tell us about shift length, connectivity and who will review recordings."
+        },
+        {
+          "element": "h2",
+          "text": "Asset trackers"
+        },
+        {
+          "element": "p",
+          "text": "Locate equipment and review movement history."
+        },
+        {
+          "element": "p",
+          "text": "Share the asset type, environment and battery-life requirements."
+        },
+        {
+          "element": "h2",
+          "text": "Pet and household devices"
+        },
+        {
+          "element": "p",
+          "text": "Pet location, household camera views and shared family journeys."
+        },
+        {
+          "element": "p",
+          "text": "Join the LensFleet Home waitlist to discuss your household setup."
+        },
+        {
+          "element": "h2",
+          "text": "Tell us what you need to see."
+        },
+        {
+          "element": "p",
+          "text": "LensFleet is in development. Register your interest and share your requirements."
+        }
+      ]
+    },
+    {
+      "route": "/home",
+      "blocks": [
+        {
+          "element": "h1",
+          "text": "Stay close to what matters."
+        },
+        {
+          "element": "p",
+          "text": "LensFleet Home is in development. The planned experience brings family location sharing, pet tracking, home camera views and alerts together."
+        },
+        {
+          "element": "p",
+          "text": "Shared by choice. In your control."
+        },
+        {
+          "element": "small",
+          "text": "Family trip"
+        },
+        {
+          "element": "small",
+          "text": "Rex"
+        },
+        {
+          "element": "small",
+          "text": "Last seen on Adewale Street."
+        },
+        {
+          "element": "h2",
+          "text": "The everyday. And the far from home."
+        },
+        {
+          "element": "p",
+          "text": "From a family holiday to a walk around the block, bring useful information into reach."
+        },
+        {
+          "element": "h3",
+          "text": "Family location sharing"
+        },
+        {
+          "element": "p",
+          "text": "Share your location with the people you choose. Keep permissions clear and visibility in your control."
+        },
+        {
+          "element": "li",
+          "text": "Consent-based family sharing"
+        },
+        {
+          "element": "li",
+          "text": "Clear location permissions"
+        },
+        {
+          "element": "li",
+          "text": "Useful saved places"
+        },
+        {
+          "element": "h3",
+          "text": "Pet tracking"
+        },
+        {
+          "element": "p",
+          "text": "Keep pets in reach with a tracker, location information, and geofence alerts."
+        },
+        {
+          "element": "li",
+          "text": "Pet location and movement"
+        },
+        {
+          "element": "li",
+          "text": "Garden and place alerts"
+        },
+        {
+          "element": "li",
+          "text": "Journey records"
+        },
+        {
+          "element": "h3",
+          "text": "Home visibility"
+        },
+        {
+          "element": "p",
+          "text": "Connected home cameras bring live views and recordings into your household experience."
+        },
+        {
+          "element": "li",
+          "text": "Live camera views"
+        },
+        {
+          "element": "li",
+          "text": "Recorded moments"
+        },
+        {
+          "element": "li",
+          "text": "Authorised household access"
+        },
+        {
+          "element": "h3",
+          "text": "Travel and everyday journeys"
+        },
+        {
+          "element": "p",
+          "text": "Stay connected on a family holiday or an everyday trip with shared location and journey information."
+        },
+        {
+          "element": "li",
+          "text": "Real-time location sharing"
+        },
+        {
+          "element": "li",
+          "text": "Family vacation visibility"
+        },
+        {
+          "element": "li",
+          "text": "Journey information"
+        },
+        {
+          "element": "h3",
+          "text": "Household alerts"
+        },
+        {
+          "element": "p",
+          "text": "Know about location changes around the places that matter to your household."
+        },
+        {
+          "element": "li",
+          "text": "Geofence events"
+        },
+        {
+          "element": "li",
+          "text": "Arrival and departure information"
+        },
+        {
+          "element": "li",
+          "text": "Control over shared visibility"
+        },
+        {
+          "element": "strong",
+          "text": "Rex left the garden at 16:04."
+        },
+        {
+          "element": "p",
+          "text": "Last seen on Adewale Street · Illustration"
+        },
+        {
+          "element": "h2",
+          "text": "Their next adventure. A useful place to start."
+        },
+        {
+          "element": "p",
+          "text": "Pet trackers and geofence alerts help you keep pets in reach. Check location updates and review the journey."
+        },
+        {
+          "element": "p",
+          "text": "For family members, location sharing requires consent and clear permissions. Choose what to share, and with whom."
+        },
+        {
+          "element": "h2",
+          "text": "Visibility with responsibility."
+        },
+        {
+          "element": "p",
+          "text": "Useful visibility respects consent, permissions, and access controls. Share the moment with the people authorised to see it."
+        },
+        {
+          "element": "h3",
+          "text": "Permission-based access"
+        },
+        {
+          "element": "p",
+          "text": "Give each person access for a clear purpose."
+        },
+        {
+          "element": "h3",
+          "text": "Controlled, time-limited sharing"
+        },
+        {
+          "element": "p",
+          "text": "Use share links to give recipients records."
+        },
+        {
+          "element": "h3",
+          "text": "Evidence access history"
+        },
+        {
+          "element": "p",
+          "text": "Review access logs around evidence records."
+        },
+        {
+          "element": "h3",
+          "text": "Consent-aware camera use"
+        },
+        {
+          "element": "p",
+          "text": "Use cameras with permission and clear expectations."
+        },
+        {
+          "element": "h2",
+          "text": "Before you connect."
+        },
+        {
+          "element": "p",
+          "text": "A few practical questions about the platform."
+        },
+        {
+          "element": "summary",
+          "text": "Do all devices support every capability?"
+        },
+        {
+          "element": "p",
+          "text": "No. We’ll confirm device support and launch availability as development progresses."
+        },
+        {
+          "element": "summary",
+          "text": "Which experience is right for me?"
+        },
+        {
+          "element": "p",
+          "text": "Sentinel is for businesses and professional operations. LensFleet Home is for households, family location sharing, pet tracking, and home cameras."
+        },
+        {
+          "element": "summary",
+          "text": "Is the website showing live customer data?"
+        },
+        {
+          "element": "p",
+          "text": "No. Product visuals and scenario records are examples. The website describes the product we are building; it does not show an operating customer system."
+        },
+        {
+          "element": "summary",
+          "text": "How can I register interest?"
+        },
+        {
+          "element": "p",
+          "text": "Use the contact form and tell us about your requirements. You can also email info@lensfleet.com."
+        },
+        {
+          "element": "h2",
+          "text": "Tell us what you need to see."
+        },
+        {
+          "element": "p",
+          "text": "LensFleet is in development. Register your interest and share your requirements."
+        }
+      ]
+    },
+    {
+      "route": "/",
+      "blocks": [
+        {
+          "element": "h1",
+          "text": "Proof in motion."
+        },
+        {
+          "element": "p",
+          "text": "We’re building GPS tracking and camera visibility for businesses and households."
+        },
+        {
+          "element": "p",
+          "text": "Our goal is to connect locations, live camera views and recordings so you can review journeys and events in one place."
+        },
+        {
+          "element": "small",
+          "text": "Ikeja → Oshodi"
+        },
+        {
+          "element": "small",
+          "text": "12 Oct 2026"
+        },
+        {
+          "element": "li",
+          "text": "Ikeja07:06 · Journey started"
+        },
+        {
+          "element": "li",
+          "text": "Oshodi07:42 · Arrival recorded"
+        },
+        {
+          "element": "strong",
+          "text": "Bus 14 arrived at Oshodi."
+        },
+        {
+          "element": "p",
+          "text": "07:42 · 23 passengers · Clip saved"
+        },
+        {
+          "element": "p",
+          "text": "Concept preview · Example journey data, not a pilot result."
+        },
+        {
+          "element": "strong",
+          "text": "A clearer picture."
+        },
+        {
+          "element": "p",
+          "text": "Our goal: cameras and trackers that turn “it was delivered”, “the carer came” and “the guard was there” into something you can see."
+        },
+        {
+          "element": "h2",
+          "text": "Know what happened. See the proof."
+        },
+        {
+          "element": "p",
+          "text": "A point on a map is a start. LensFleet connects it with a visual record, so you can review the moment behind the update."
+        },
+        {
+          "element": "h3",
+          "text": "Track movement"
+        },
+        {
+          "element": "p",
+          "text": "See live locations and journey history for vehicles, people, and assets."
+        },
+        {
+          "element": "small",
+          "text": "Location + journey"
+        },
+        {
+          "element": "strong",
+          "text": "Ikeja → Oshodi"
+        },
+        {
+          "element": "h3",
+          "text": "View the moment"
+        },
+        {
+          "element": "p",
+          "text": "Watch live camera views and replay the moment behind an event."
+        },
+        {
+          "element": "small",
+          "text": "Video + context"
+        },
+        {
+          "element": "strong",
+          "text": "07:42 · Clip saved"
+        },
+        {
+          "element": "h3",
+          "text": "Review journey records"
+        },
+        {
+          "element": "p",
+          "text": "Share journey records and clips with the people you choose."
+        },
+        {
+          "element": "small",
+          "text": "Records + permissions"
+        },
+        {
+          "element": "strong",
+          "text": "Authorised access"
+        },
+        {
+          "element": "h2",
+          "text": "Built for the moments that matter."
+        },
+        {
+          "element": "p",
+          "text": "Different questions. One connected approach to finding the answer."
+        },
+        {
+          "element": "h3",
+          "text": "Transport and logistics"
+        },
+        {
+          "element": "p",
+          "text": "From Lagos bus routes to the last delivery, connect the journey with the moments that explain it."
+        },
+        {
+          "element": "h3",
+          "text": "Security and incident evidence"
+        },
+        {
+          "element": "p",
+          "text": "Connect body-worn cameras, live views, and incident records for authorised security teams."
+        },
+        {
+          "element": "h3",
+          "text": "Care and home services"
+        },
+        {
+          "element": "p",
+          "text": "Help agencies and families confirm attendance while respecting the people at the centre of every visit."
+        },
+        {
+          "element": "h3",
+          "text": "Pet tracking and animal services"
+        },
+        {
+          "element": "p",
+          "text": "Keep pets in reach and bring useful context to walks, visits, and animal journeys."
+        },
+        {
+          "element": "h3",
+          "text": "Live streaming and content creators"
+        },
+        {
+          "element": "p",
+          "text": "Bring live camera views and the GPS journey into the same experience."
+        },
+        {
+          "element": "h3",
+          "text": "Asset and equipment tracking"
+        },
+        {
+          "element": "p",
+          "text": "Know where equipment is, when it last moved, and how its location has changed."
+        },
+        {
+          "element": "h2",
+          "text": "The route is complete. The record stays."
+        },
+        {
+          "element": "strong",
+          "text": "Bus 14 arrived at Oshodi at 07:42."
+        },
+        {
+          "element": "p",
+          "text": "23 passengers · Clip saved"
+        },
+        {
+          "element": "h3",
+          "text": "Where it went. When it arrived. What happened."
+        },
+        {
+          "element": "p",
+          "text": "A bus completes its route. The operator can replay the journey, review passenger counts, and open the clip behind the arrival record."
+        },
+        {
+          "element": "h2",
+          "text": "Tell us what you need to see."
+        },
+        {
+          "element": "p",
+          "text": "LensFleet is in development. Register your interest and share your requirements."
+        }
+      ]
+    },
+    {
+      "route": "/platform",
+      "blocks": [
+        {
+          "element": "h1",
+          "text": "From a signal to something you can see."
+        },
+        {
+          "element": "p",
+          "text": "Physical devices. Journey records. Authorised sharing. LensFleet is being developed to connect where something happened with what a recording shows."
+        },
+        {
+          "element": "h2",
+          "text": "What is a journey record?"
+        },
+        {
+          "element": "p",
+          "text": "Our goal is to bring GPS locations, timestamps and linked recordings together so you can compare the sources and assess an event. A location or passenger count alone does not establish what happened."
+        },
+        {
+          "element": "h3",
+          "text": "Physical devices"
+        },
+        {
+          "element": "p",
+          "text": "Cameras and trackers"
+        },
+        {
+          "element": "h3",
+          "text": "Connected platform"
+        },
+        {
+          "element": "p",
+          "text": "Location, live views, and events"
+        },
+        {
+          "element": "h3",
+          "text": "Journey records"
+        },
+        {
+          "element": "p",
+          "text": "Journeys, clips, and context"
+        },
+        {
+          "element": "h3",
+          "text": "Authorised sharing"
+        },
+        {
+          "element": "p",
+          "text": "The right record. The right people."
+        },
+        {
+          "element": "h2",
+          "text": "The right devices. A connected view."
+        },
+        {
+          "element": "p",
+          "text": "Planned device categories for vehicle, field, asset and household visibility."
+        },
+        {
+          "element": "h3",
+          "text": "GPS trackers"
+        },
+        {
+          "element": "p",
+          "text": "Vehicle and asset location sources."
+        },
+        {
+          "element": "h3",
+          "text": "Dashcams"
+        },
+        {
+          "element": "p",
+          "text": "Road views, recordings, and journey context."
+        },
+        {
+          "element": "h3",
+          "text": "Cabin cameras"
+        },
+        {
+          "element": "p",
+          "text": "Camera views and passenger entry and exit counting."
+        },
+        {
+          "element": "h3",
+          "text": "Body-worn cameras"
+        },
+        {
+          "element": "p",
+          "text": "Field live views and incident recordings."
+        },
+        {
+          "element": "h3",
+          "text": "Pet trackers"
+        },
+        {
+          "element": "p",
+          "text": "Devices for pets on the move."
+        },
+        {
+          "element": "h3",
+          "text": "Home cameras"
+        },
+        {
+          "element": "p",
+          "text": "Household views and recordings."
+        },
+        {
+          "element": "h2",
+          "text": "More context. Fewer unanswered questions."
+        },
+        {
+          "element": "p",
+          "text": "Location, visual records, and useful insights. Explore the capabilities that connect the dots."
+        },
+        {
+          "element": "h3",
+          "text": "Real-time GPS tracking"
+        },
+        {
+          "element": "p",
+          "text": "See live locations for connected vehicles, people, and devices."
+        },
+        {
+          "element": "h3",
+          "text": "Journey replay"
+        },
+        {
+          "element": "p",
+          "text": "Follow the route and review recorded events."
+        },
+        {
+          "element": "h3",
+          "text": "Route adherence"
+        },
+        {
+          "element": "p",
+          "text": "Compare a journey with the route your operation agreed."
+        },
+        {
+          "element": "h3",
+          "text": "Geofence alerts"
+        },
+        {
+          "element": "p",
+          "text": "Receive notifications around meaningful places."
+        },
+        {
+          "element": "h2",
+          "text": "One platform. Many possibilities."
+        },
+        {
+          "element": "p",
+          "text": "Built around the way you work. And the world you come home to."
+        },
+        {
+          "element": "h3",
+          "text": "Sentinel"
+        },
+        {
+          "element": "p",
+          "text": "A planned workspace for vehicle locations, recordings, journey records and sharing."
+        },
+        {
+          "element": "strong",
+          "text": "Delivery arrival recorded."
+        },
+        {
+          "element": "p",
+          "text": "Location linked · Clip saved"
+        },
+        {
+          "element": "h3",
+          "text": "LensFleet Home"
+        },
+        {
+          "element": "p",
+          "text": "A planned household experience for family location sharing, pet tracking and home camera views."
+        },
+        {
+          "element": "small",
+          "text": "Family trip"
+        },
+        {
+          "element": "small",
+          "text": "Rex"
+        },
+        {
+          "element": "small",
+          "text": "Last seen on Adewale Street."
+        },
+        {
+          "element": "p",
+          "text": "These are planned capabilities. Device support and launch availability will be confirmed as development progresses."
+        },
+        {
+          "element": "h2",
+          "text": "Visibility with responsibility."
+        },
+        {
+          "element": "p",
+          "text": "Useful visibility respects consent, permissions, and access controls. Share the moment with the people authorised to see it."
+        },
+        {
+          "element": "h3",
+          "text": "Permission-based access"
+        },
+        {
+          "element": "p",
+          "text": "Give each person access for a clear purpose."
+        },
+        {
+          "element": "h3",
+          "text": "Controlled, time-limited sharing"
+        },
+        {
+          "element": "p",
+          "text": "Use share links to give recipients records."
+        },
+        {
+          "element": "h3",
+          "text": "Evidence access history"
+        },
+        {
+          "element": "p",
+          "text": "Review access logs around evidence records."
+        },
+        {
+          "element": "h3",
+          "text": "Consent-aware camera use"
+        },
+        {
+          "element": "p",
+          "text": "Use cameras with permission and clear expectations."
+        },
+        {
+          "element": "h2",
+          "text": "Tell us what you need to see."
+        },
+        {
+          "element": "p",
+          "text": "LensFleet is in development. Register your interest and share your requirements."
+        }
+      ]
+    },
+    {
+      "route": "/platform/sentinel",
+      "blocks": [
+        {
+          "element": "h1",
+          "text": "See your operations. Verify the moments that matter."
+        },
+        {
+          "element": "p",
+          "text": "We’re developing Sentinel to connect tracking devices, camera views and journey records for professional operations."
+        },
+        {
+          "element": "small",
+          "text": "Ikeja → Oshodi"
+        },
+        {
+          "element": "small",
+          "text": "12 Oct 2026"
+        },
+        {
+          "element": "li",
+          "text": "Ikeja07:06 · Journey started"
+        },
+        {
+          "element": "li",
+          "text": "Oshodi07:42 · Arrival recorded"
+        },
+        {
+          "element": "strong",
+          "text": "Bus 14 arrived at Oshodi."
+        },
+        {
+          "element": "p",
+          "text": "07:42 · 23 passengers · Clip saved"
+        },
+        {
+          "element": "p",
+          "text": "Concept preview · Example journey data, not a pilot result."
+        },
+        {
+          "element": "h2",
+          "text": "Movement. Moments. Operational context."
+        },
+        {
+          "element": "p",
+          "text": "From fleet visibility to evidence sharing, keep the relevant details connected."
+        },
+        {
+          "element": "h3",
+          "text": "Fleet visibility"
+        },
+        {
+          "element": "p",
+          "text": "Follow movement. Keep the journey in context."
+        },
+        {
+          "element": "li",
+          "text": "Vehicle location and journey history"
+        },
+        {
+          "element": "li",
+          "text": "Route adherence and geofence events"
+        },
+        {
+          "element": "li",
+          "text": "Operational alerts"
+        },
+        {
+          "element": "h3",
+          "text": "Visual verification"
+        },
+        {
+          "element": "p",
+          "text": "Return to the moment that explains the event."
+        },
+        {
+          "element": "li",
+          "text": "Dashcam recordings and live views"
+        },
+        {
+          "element": "li",
+          "text": "Recorded journey events and delivery evidence"
+        },
+        {
+          "element": "li",
+          "text": "Journey replay"
+        },
+        {
+          "element": "h3",
+          "text": "Passenger counting"
+        },
+        {
+          "element": "p",
+          "text": "See passenger activity alongside the bus journey."
+        },
+        {
+          "element": "li",
+          "text": "Cabin-camera passenger counts"
+        },
+        {
+          "element": "li",
+          "text": "Passengers entering and leaving buses"
+        },
+        {
+          "element": "li",
+          "text": "Counts linked to operational context"
+        },
+        {
+          "element": "h3",
+          "text": "Security evidence"
+        },
+        {
+          "element": "p",
+          "text": "Bring field recordings into an authorised review."
+        },
+        {
+          "element": "li",
+          "text": "Body-worn camera recordings"
+        },
+        {
+          "element": "li",
+          "text": "Control-room live view and incident records"
+        },
+        {
+          "element": "li",
+          "text": "Access history and controlled evidence exports"
+        },
+        {
+          "element": "h3",
+          "text": "Asset intelligence"
+        },
+        {
+          "element": "p",
+          "text": "Know where it is and when it last moved."
+        },
+        {
+          "element": "li",
+          "text": "Current and last-known asset location"
+        },
+        {
+          "element": "li",
+          "text": "Last movement time and movement history"
+        },
+        {
+          "element": "li",
+          "text": "Geofence events and relevant summaries"
+        },
+        {
+          "element": "h3",
+          "text": "Evidence sharing"
+        },
+        {
+          "element": "p",
+          "text": "Give the right people the record."
+        },
+        {
+          "element": "li",
+          "text": "Authorised clips and journey records"
+        },
+        {
+          "element": "li",
+          "text": "Controlled, time-limited share links"
+        },
+        {
+          "element": "li",
+          "text": "Evidence access history"
+        },
+        {
+          "element": "h2",
+          "text": "The useful proof. The right people."
+        },
+        {
+          "element": "p",
+          "text": "Planned sharing controls include recipient permissions, time-limited links and access history. These controls will need to be tested before launch."
+        },
+        {
+          "element": "strong",
+          "text": "Journey record selected."
+        },
+        {
+          "element": "p",
+          "text": "Route + arrival event + clip"
+        },
+        {
+          "element": "small",
+          "text": "Example sharing workflow."
+        },
+        {
+          "element": "h2",
+          "text": "Built for the moments that matter."
+        },
+        {
+          "element": "p",
+          "text": "Different questions. One connected approach to finding the answer."
+        },
+        {
+          "element": "h3",
+          "text": "Transport and logistics"
+        },
+        {
+          "element": "p",
+          "text": "From Lagos bus routes to the last delivery, connect the journey with the moments that explain it."
+        },
+        {
+          "element": "h3",
+          "text": "Security and incident evidence"
+        },
+        {
+          "element": "p",
+          "text": "Connect body-worn cameras, live views, and incident records for authorised security teams."
+        },
+        {
+          "element": "h3",
+          "text": "Care and home services"
+        },
+        {
+          "element": "p",
+          "text": "Help agencies and families confirm attendance while respecting the people at the centre of every visit."
+        },
+        {
+          "element": "h3",
+          "text": "Pet tracking and animal services"
+        },
+        {
+          "element": "p",
+          "text": "Keep pets in reach and bring useful context to walks, visits, and animal journeys."
+        },
+        {
+          "element": "h3",
+          "text": "Live streaming and content creators"
+        },
+        {
+          "element": "p",
+          "text": "Bring live camera views and the GPS journey into the same experience."
+        },
+        {
+          "element": "h3",
+          "text": "Asset and equipment tracking"
+        },
+        {
+          "element": "p",
+          "text": "Know where equipment is, when it last moved, and how its location has changed."
+        },
+        {
+          "element": "h2",
+          "text": "Tell us what you need to see."
+        },
+        {
+          "element": "p",
+          "text": "LensFleet is in development. Register your interest and share your requirements."
+        }
+      ]
+    },
+    {
+      "route": "/pricing",
+      "blocks": [
+        {
+          "element": "h1",
+          "text": "Your operation. Your plan."
+        },
+        {
+          "element": "p",
+          "text": "Pricing has not been published. We are planning for hardware, connectivity, recording storage and installation costs. Register interest in naira or pounds and tell us your budget."
+        },
+        {
+          "element": "h2",
+          "text": "Sentinel"
+        },
+        {
+          "element": "p",
+          "text": "For vehicles, field teams and assets."
+        },
+        {
+          "element": "strong",
+          "text": "Pricing to be announced"
+        },
+        {
+          "element": "p",
+          "text": "Register pricing interest in Nigerian naira (₦)."
+        },
+        {
+          "element": "p",
+          "text": "Vehicle and asset tracking · Camera views and playback · Passenger counting"
+        },
+        {
+          "element": "h2",
+          "text": "LensFleet Home"
+        },
+        {
+          "element": "p",
+          "text": "For family, pets and home."
+        },
+        {
+          "element": "strong",
+          "text": "Join the waitlist"
+        },
+        {
+          "element": "p",
+          "text": "Register your interest for launch updates."
+        },
+        {
+          "element": "p",
+          "text": "Shared family locations · Pet tracking · Household camera views"
+        },
+        {
+          "element": "h2",
+          "text": "What we are working to price"
+        },
+        {
+          "element": "p",
+          "text": "Our pricing plan needs to cover device models and quantities, installation, connectivity, subscriptions, recording storage, support and one-off costs. There are no published prices or ordering commitments yet."
+        }
+      ]
+    },
+    {
+      "route": "/privacy",
+      "blocks": [
+        {
+          "element": "h1",
+          "text": "Website privacy notice"
+        },
+        {
+          "element": "p",
+          "text": "This expanded draft describes the development-stage website and identifies the decisions still awaiting approval. It is not an adopted policy or service agreement."
+        },
+        {
+          "element": "h2",
+          "text": "Who this notice concerns"
+        },
+        {
+          "element": "p",
+          "text": "This draft covers general enquiries sent through the LensFleet marketing website. LensFleet Limited, company no. 16970123, is the company contact. Registered office: Flat 2 Milligan House, 99 Avenue Road, London N14 4FH. Product location and camera data need a separate, deployment-specific notice."
+        },
+        {
+          "element": "h2",
+          "text": "What the form collects"
+        },
+        {
+          "element": "p",
+          "text": "The form asks for your name, email address, area of interest and message, plus an optional organisation name. It also sends the request type (general enquiry or Home waitlist) and elapsed form-completion time. Do not send recordings, location histories, medical details or sensitive incident information."
+        },
+        {
+          "element": "h2",
+          "text": "Why the information is used"
+        },
+        {
+          "element": "p",
+          "text": "Enquiries are sent to the team so they can answer questions, discuss future pricing or product plans. A Home waitlist request asks the team to email you about launch availability. The owner must approve and document the lawful basis for each purpose before adopting this notice."
+        },
+        {
+          "element": "h2",
+          "text": "How delivery works"
+        },
+        {
+          "element": "p",
+          "text": "The website server validates the form and uses Resend to send accepted enquiries to the configured team mailbox. The form does not write enquiries to an application database. Delivery-provider acceptance does not establish that a person has read the message."
+        },
+        {
+          "element": "h2",
+          "text": "Security and technical records"
+        },
+        {
+          "element": "p",
+          "text": "The server keeps a temporary in-memory request counter keyed by connection address to limit repeated submissions. Entries expire after ten minutes and are removed on subsequent requests; a server restart also clears them. Hosting and email services may keep separate technical logs. Their locations and retention must be confirmed by the owner."
+        },
+        {
+          "element": "h2",
+          "text": "Retention, recipients and transfers — awaiting approval"
+        },
+        {
+          "element": "p",
+          "text": "The owner must confirm the team mailbox retention period, waitlist deletion process, processor terms, hosting location and any international transfer arrangements. No period or data-residency promise has been approved. This is an outstanding requirement before public launch."
+        },
+        {
+          "element": "h2",
+          "text": "Questions and rights"
+        },
+        {
+          "element": "p",
+          "text": "Email info@lensfleet.com to ask about access, correction, deletion or objections to processing, or to withdraw a Home waitlist request. The rights that apply depend on the processing and jurisdiction. You can also contact the UK Information Commissioner or Nigeria Data Protection Commission. The owner must approve the request-handling procedure before this notice is adopted."
+        },
+        {
+          "element": "p",
+          "text": "Regulator information: UK Information Commissioner · Nigeria Data Protection Commission."
+        },
+        {
+          "element": "p",
+          "text": "For enquiries, contact info@lensfleet.com."
+        }
+      ]
+    },
+    {
+      "route": "/resources/body-cameras-care",
+      "blocks": [
+        {
+          "element": "h1",
+          "text": "Body cameras and consent in care"
+        },
+        {
+          "element": "p",
+          "text": "A camera changes the experience of a visit. Discuss the people and the purpose before the device."
+        },
+        {
+          "element": "h2",
+          "text": "Start with the purpose"
+        },
+        {
+          "element": "p",
+          "text": "Define the problem you are trying to solve and whether recording is necessary. Involve the care provider, workers, people receiving care and their representatives in the decision."
+        },
+        {
+          "element": "h2",
+          "text": "Agree the rules before recording"
+        },
+        {
+          "element": "p",
+          "text": "Ask your privacy adviser to assess the lawful basis, transparency, sensitive information, worker monitoring and any impact assessment required in your jurisdiction. Consent alone is not a substitute for that assessment."
+        },
+        {
+          "element": "h2",
+          "text": "Make access deliberate"
+        },
+        {
+          "element": "p",
+          "text": "Document when recording starts and stops, who can view or export it, how long it is retained and how someone can raise a concern. Train staff before a camera is used on a visit."
+        },
+        {
+          "element": "p",
+          "text": "Further reading: ICO guidance on body-worn video."
+        },
+        {
+          "element": "p",
+          "text": "All guides"
+        }
+      ]
+    },
+    {
+      "route": "/resources/dashcam-lagos-bus",
+      "blocks": [
+        {
+          "element": "h1",
+          "text": "Choosing a dashcam for a Lagos bus"
+        },
+        {
+          "element": "p",
+          "text": "Start with the journey you need to understand, then choose the camera."
+        },
+        {
+          "element": "h2",
+          "text": "Choose the views"
+        },
+        {
+          "element": "p",
+          "text": "Decide whether you need road, driver or cabin views. Passenger entry and exit counting is a separate requirement: ask for a demonstration with the camera position and bus layout you will use."
+        },
+        {
+          "element": "h2",
+          "text": "Plan for power and connectivity"
+        },
+        {
+          "element": "p",
+          "text": "Check the vehicle power supply, mounting position, mobile network coverage and data costs. Ask how recordings are stored during a network interruption and how they are retrieved afterwards."
+        },
+        {
+          "element": "h2",
+          "text": "Test a complete journey"
+        },
+        {
+          "element": "p",
+          "text": "Try daytime, darkness, traffic and a crowded boarding stop. Review a clip alongside its time and location. Agree installation, storage, access and ongoing costs before ordering."
+        },
+        {
+          "element": "p",
+          "text": "All guides"
+        }
+      ]
+    },
+    {
+      "route": "/resources",
+      "blocks": [
+        {
+          "element": "h1",
+          "text": "Better questions. Clearer decisions."
+        },
+        {
+          "element": "p",
+          "text": "Start here when planning cameras, tracking and useful records for your operation."
+        },
+        {
+          "element": "h2",
+          "text": "Choosing a dashcam for a Lagos bus"
+        },
+        {
+          "element": "p",
+          "text": "Start with the journey you need to understand, then choose the camera."
+        },
+        {
+          "element": "h2",
+          "text": "Body cameras and consent in care"
+        },
+        {
+          "element": "p",
+          "text": "A camera changes the experience of a visit. Discuss the people and the purpose before the device."
+        },
+        {
+          "element": "h2",
+          "text": "What a useful delivery record brings together"
+        },
+        {
+          "element": "p",
+          "text": "An arrival marker is a starting point. A useful delivery record brings the surrounding facts together."
+        }
+      ]
+    },
+    {
+      "route": "/resources/verified-delivery-record",
+      "blocks": [
+        {
+          "element": "h1",
+          "text": "What a useful delivery record brings together"
+        },
+        {
+          "element": "p",
+          "text": "An arrival marker is a starting point. A useful delivery record brings the surrounding facts together."
+        },
+        {
+          "element": "h2",
+          "text": "Identify the event"
+        },
+        {
+          "element": "p",
+          "text": "Connect the journey, vehicle, destination and timestamp. Keep the source of each piece of information clear so a reviewer can understand where it came from."
+        },
+        {
+          "element": "h2",
+          "text": "Keep the useful context"
+        },
+        {
+          "element": "p",
+          "text": "Link the arrival event to the relevant camera clip or handover record. A location alone cannot establish what was handed over or who accepted it."
+        },
+        {
+          "element": "h2",
+          "text": "Review and share carefully"
+        },
+        {
+          "element": "p",
+          "text": "Check the record before sharing. Limit the recipient and the information included, and agree who can authorise disclosure. Keep an example clearly labelled when demonstrating the workflow."
+        },
+        {
+          "element": "p",
+          "text": "All guides"
+        }
+      ]
+    },
+    {
+      "route": "/security-privacy",
+      "blocks": [
+        {
+          "element": "h1",
+          "text": "Clear questions. Responsible visibility."
+        },
+        {
+          "element": "p",
+          "text": "Location and camera records can be sensitive. Agree who can see them, why they are needed and when they should be deleted before using them."
+        },
+        {
+          "element": "h2",
+          "text": "Plan access around people"
+        },
+        {
+          "element": "p",
+          "text": "Define the people who can access live views, review recordings and share records. For family location sharing, make participation and permissions clear to everyone involved."
+        },
+        {
+          "element": "h2",
+          "text": "Ask for a written security specification"
+        },
+        {
+          "element": "p",
+          "text": "Request details of encryption in transit and storage, account access controls, access logs, hosting country, subprocessors, recording retention and deletion. These details must be confirmed for your future setup; this website does not claim a certification or a specific hosting location."
+        },
+        {
+          "element": "h2",
+          "text": "Agree retention and deletion"
+        },
+        {
+          "element": "p",
+          "text": "Choose a retention period for each kind of record and document how deletion requests and incident holds are handled. Do this before connecting cameras or sharing personal locations."
+        },
+        {
+          "element": "h2",
+          "text": "UK and Nigeria operations"
+        },
+        {
+          "element": "p",
+          "text": "Discuss the applicable privacy obligations with your organisation’s adviser before deployment. The contact form is for general enquiries; do not upload recordings or sensitive incident details."
+        },
+        {
+          "element": "p",
+          "text": "Read our website privacy notice and its approval status."
+        }
+      ]
+    },
+    {
+      "route": "/solutions/asset-tracking",
+      "blocks": [
+        {
+          "element": "h1",
+          "text": "Assets in sight. Answers in reach."
+        },
+        {
+          "element": "p",
+          "text": "Know where equipment is, when it last moved, and how its location has changed."
+        },
+        {
+          "element": "h2",
+          "text": "“Where is it, is it where it should be, and when did it last move?”"
+        },
+        {
+          "element": "p",
+          "text": "Connect trackers to your assets. Review current or last-known positions, movement history, and geofence events."
+        },
+        {
+          "element": "h3",
+          "text": "Excavator 03 returned to the yard at 17:26."
+        },
+        {
+          "element": "p",
+          "text": "Last movement recorded. Location saved."
+        },
+        {
+          "element": "h2",
+          "text": "The moment. And the record behind it."
+        },
+        {
+          "element": "p",
+          "text": "An illustrative asset event, not a theft-prevention guarantee."
+        },
+        {
+          "element": "li",
+          "text": "Current and last-known position"
+        },
+        {
+          "element": "li",
+          "text": "Last movement time"
+        },
+        {
+          "element": "li",
+          "text": "Geofence events"
+        },
+        {
+          "element": "li",
+          "text": "Historical movements"
+        },
+        {
+          "element": "li",
+          "text": "Operational summaries"
+        },
+        {
+          "element": "li",
+          "text": "Exportable records"
+        },
+        {
+          "element": "h2",
+          "text": "From the event to the useful record."
+        },
+        {
+          "element": "h3",
+          "text": "Connect"
+        },
+        {
+          "element": "p",
+          "text": "Connect a tracker to the equipment."
+        },
+        {
+          "element": "h3",
+          "text": "See"
+        },
+        {
+          "element": "p",
+          "text": "Define relevant zones and follow movement events."
+        },
+        {
+          "element": "h3",
+          "text": "Verify"
+        },
+        {
+          "element": "p",
+          "text": "Review the record and export information when needed."
+        },
+        {
+          "element": "h2",
+          "text": "Useful visibility. Grounded in the details."
+        },
+        {
+          "element": "h3",
+          "text": "Find the last-known position"
+        },
+        {
+          "element": "p",
+          "text": "Use tracker updates to locate equipment."
+        },
+        {
+          "element": "h3",
+          "text": "Understand movement"
+        },
+        {
+          "element": "p",
+          "text": "Review when an asset moved and where it went."
+        },
+        {
+          "element": "h3",
+          "text": "Keep a useful record"
+        },
+        {
+          "element": "p",
+          "text": "Use relevant summaries and exports in operational decisions."
+        },
+        {
+          "element": "h2",
+          "text": "Tell us what you need to see."
+        },
+        {
+          "element": "p",
+          "text": "LensFleet is in development. Register your interest and share your requirements."
+        }
+      ]
+    },
+    {
+      "route": "/solutions/care-services",
+      "blocks": [
+        {
+          "element": "h1",
+          "text": "Care deserves trust. Visits deserve clarity."
+        },
+        {
+          "element": "p",
+          "text": "Help agencies and families confirm attendance while respecting the people at the centre of every visit."
+        },
+        {
+          "element": "h2",
+          "text": "“Did the carer attend, when, and for how long?”"
+        },
+        {
+          "element": "p",
+          "text": "Connect arrival and departure verification with visit duration. Optional handover recordings require appropriate consent and clear permissions."
+        },
+        {
+          "element": "h3",
+          "text": "Visit completed at 10:18."
+        },
+        {
+          "element": "p",
+          "text": "Arrived 09:30. Duration 48 min."
+        },
+        {
+          "element": "h2",
+          "text": "The moment. And the record behind it."
+        },
+        {
+          "element": "p",
+          "text": "An illustrative visit summary, shared only with authorised people."
+        },
+        {
+          "element": "li",
+          "text": "Arrival verification"
+        },
+        {
+          "element": "li",
+          "text": "Departure verification"
+        },
+        {
+          "element": "li",
+          "text": "Visit duration records"
+        },
+        {
+          "element": "li",
+          "text": "Optional consent-based handover recording"
+        },
+        {
+          "element": "li",
+          "text": "Controlled family visibility"
+        },
+        {
+          "element": "li",
+          "text": "Relevant visit and journey records"
+        },
+        {
+          "element": "h2",
+          "text": "From the event to the useful record."
+        },
+        {
+          "element": "h3",
+          "text": "Connect"
+        },
+        {
+          "element": "p",
+          "text": "Agree appropriate consent and access permissions."
+        },
+        {
+          "element": "h3",
+          "text": "See"
+        },
+        {
+          "element": "p",
+          "text": "Record arrival and departure events."
+        },
+        {
+          "element": "h3",
+          "text": "Verify"
+        },
+        {
+          "element": "p",
+          "text": "Review the visit summary with authorised family or agency staff."
+        },
+        {
+          "element": "h2",
+          "text": "Useful visibility. Grounded in the details."
+        },
+        {
+          "element": "h3",
+          "text": "Confirm attendance"
+        },
+        {
+          "element": "p",
+          "text": "Answer practical questions about arrival, departure, and duration."
+        },
+        {
+          "element": "h3",
+          "text": "Give families clarity"
+        },
+        {
+          "element": "p",
+          "text": "Share relevant visit information within agreed permissions."
+        },
+        {
+          "element": "h3",
+          "text": "Respect dignity"
+        },
+        {
+          "element": "p",
+          "text": "Keep optional recordings consent-based and proportionate."
+        },
+        {
+          "element": "h2",
+          "text": "Tell us what you need to see."
+        },
+        {
+          "element": "p",
+          "text": "LensFleet is in development. Register your interest and share your requirements."
+        }
+      ]
+    },
+    {
+      "route": "/solutions/content-creators",
+      "blocks": [
+        {
+          "element": "h1",
+          "text": "Let them ride along."
+        },
+        {
+          "element": "p",
+          "text": "Bring live camera views and the GPS journey into the same experience."
+        },
+        {
+          "element": "h2",
+          "text": "“Can my audience ride along, live, and see where I am while they watch?”"
+        },
+        {
+          "element": "p",
+          "text": "Pair camera streaming with a GPS route. Use embeds or time-limited public links to choose how your audience joins the journey."
+        },
+        {
+          "element": "h3",
+          "text": "The journey is ready to replay."
+        },
+        {
+          "element": "p",
+          "text": "Video and route. One shared experience."
+        },
+        {
+          "element": "h2",
+          "text": "The moment. And the record behind it."
+        },
+        {
+          "element": "p",
+          "text": "An illustrative creator workflow; example stream with route context."
+        },
+        {
+          "element": "li",
+          "text": "Camera streaming"
+        },
+        {
+          "element": "li",
+          "text": "GPS route alongside video"
+        },
+        {
+          "element": "li",
+          "text": "Embeddable streams"
+        },
+        {
+          "element": "li",
+          "text": "Time-limited public links"
+        },
+        {
+          "element": "li",
+          "text": "Journey replay video"
+        },
+        {
+          "element": "li",
+          "text": "Audience sharing controls"
+        },
+        {
+          "element": "h2",
+          "text": "From the event to the useful record."
+        },
+        {
+          "element": "h3",
+          "text": "Connect"
+        },
+        {
+          "element": "p",
+          "text": "Connect a camera and location source."
+        },
+        {
+          "element": "h3",
+          "text": "See"
+        },
+        {
+          "element": "p",
+          "text": "Go live and share the route within your chosen permissions."
+        },
+        {
+          "element": "h3",
+          "text": "Verify"
+        },
+        {
+          "element": "p",
+          "text": "Replay the journey and share recorded moments."
+        },
+        {
+          "element": "h2",
+          "text": "Useful visibility. Grounded in the details."
+        },
+        {
+          "element": "h3",
+          "text": "Go live with context"
+        },
+        {
+          "element": "p",
+          "text": "Give an audience a view of the journey and its route."
+        },
+        {
+          "element": "h3",
+          "text": "Choose who joins"
+        },
+        {
+          "element": "p",
+          "text": "Use the sharing permissions you choose."
+        },
+        {
+          "element": "h3",
+          "text": "Replay the journey"
+        },
+        {
+          "element": "p",
+          "text": "Let the story continue through recordings."
+        },
+        {
+          "element": "h2",
+          "text": "Tell us what you need to see."
+        },
+        {
+          "element": "p",
+          "text": "LensFleet is in development. Register your interest and share your requirements."
+        }
+      ]
+    },
+    {
+      "route": "/solutions",
+      "blocks": [
+        {
+          "element": "h1",
+          "text": "Built for the moments that matter."
+        },
+        {
+          "element": "p",
+          "text": "Different operations ask different questions. LensFleet brings location, visual context, and useful records together to help answer them."
+        },
+        {
+          "element": "h3",
+          "text": "Transport and logistics"
+        },
+        {
+          "element": "p",
+          "text": "From Lagos bus routes to the last delivery, connect the journey with the moments that explain it."
+        },
+        {
+          "element": "h3",
+          "text": "Security and incident evidence"
+        },
+        {
+          "element": "p",
+          "text": "Connect body-worn cameras, live views, and incident records for authorised security teams."
+        },
+        {
+          "element": "h3",
+          "text": "Care and home services"
+        },
+        {
+          "element": "p",
+          "text": "Help agencies and families confirm attendance while respecting the people at the centre of every visit."
+        },
+        {
+          "element": "h3",
+          "text": "Pet tracking and animal services"
+        },
+        {
+          "element": "p",
+          "text": "Keep pets in reach and bring useful context to walks, visits, and animal journeys."
+        },
+        {
+          "element": "h3",
+          "text": "Live streaming and content creators"
+        },
+        {
+          "element": "p",
+          "text": "Bring live camera views and the GPS journey into the same experience."
+        },
+        {
+          "element": "h3",
+          "text": "Asset and equipment tracking"
+        },
+        {
+          "element": "p",
+          "text": "Know where equipment is, when it last moved, and how its location has changed."
+        },
+        {
+          "element": "h2",
+          "text": "Connect. See. Review."
+        },
+        {
+          "element": "p",
+          "text": "A useful record begins with the right devices and the right permissions."
+        },
+        {
+          "element": "h3",
+          "text": "Connect"
+        },
+        {
+          "element": "p",
+          "text": "Connect cameras, trackers, vehicles, or assets."
+        },
+        {
+          "element": "h3",
+          "text": "See"
+        },
+        {
+          "element": "p",
+          "text": "Access locations, live views, alerts, and event history."
+        },
+        {
+          "element": "h3",
+          "text": "Review"
+        },
+        {
+          "element": "p",
+          "text": "Review recorded moments and share authorised evidence when needed."
+        },
+        {
+          "element": "h2",
+          "text": "Visibility with responsibility."
+        },
+        {
+          "element": "p",
+          "text": "Useful visibility respects consent, permissions, and access controls. Share the moment with the people authorised to see it."
+        },
+        {
+          "element": "h3",
+          "text": "Permission-based access"
+        },
+        {
+          "element": "p",
+          "text": "Give each person access for a clear purpose."
+        },
+        {
+          "element": "h3",
+          "text": "Controlled, time-limited sharing"
+        },
+        {
+          "element": "p",
+          "text": "Use share links to give recipients records."
+        },
+        {
+          "element": "h3",
+          "text": "Evidence access history"
+        },
+        {
+          "element": "p",
+          "text": "Review access logs around evidence records."
+        },
+        {
+          "element": "h3",
+          "text": "Consent-aware camera use"
+        },
+        {
+          "element": "p",
+          "text": "Use cameras with permission and clear expectations."
+        },
+        {
+          "element": "h2",
+          "text": "Tell us what you need to see."
+        },
+        {
+          "element": "p",
+          "text": "LensFleet is in development. Register your interest and share your requirements."
+        }
+      ]
+    },
+    {
+      "route": "/solutions/pet-tracking",
+      "blocks": [
+        {
+          "element": "h1",
+          "text": "Big adventures. A little more peace of mind."
+        },
+        {
+          "element": "p",
+          "text": "Keep pets in reach and bring useful context to walks, visits, and animal journeys."
+        },
+        {
+          "element": "h2",
+          "text": "“Where are they, and how did their journey go?”"
+        },
+        {
+          "element": "p",
+          "text": "Use a pet tracker to see locations, review movement, and receive geofence alerts. Share journey information with an owner when appropriate."
+        },
+        {
+          "element": "h3",
+          "text": "Rex left the garden at 16:04."
+        },
+        {
+          "element": "p",
+          "text": "Last seen on Adewale Street."
+        },
+        {
+          "element": "h2",
+          "text": "The moment. And the record behind it."
+        },
+        {
+          "element": "p",
+          "text": "An illustrative pet location alert, not a live tracking record."
+        },
+        {
+          "element": "li",
+          "text": "Pet location with pet trackers"
+        },
+        {
+          "element": "li",
+          "text": "Geofence alerts"
+        },
+        {
+          "element": "li",
+          "text": "Walk verification"
+        },
+        {
+          "element": "li",
+          "text": "Animal journey records"
+        },
+        {
+          "element": "li",
+          "text": "Movement history"
+        },
+        {
+          "element": "li",
+          "text": "Optional owner sharing"
+        },
+        {
+          "element": "h2",
+          "text": "From the event to the useful record."
+        },
+        {
+          "element": "h3",
+          "text": "Connect"
+        },
+        {
+          "element": "p",
+          "text": "Connect a pet tracker and define useful places."
+        },
+        {
+          "element": "h3",
+          "text": "See"
+        },
+        {
+          "element": "p",
+          "text": "Check locations and alerts."
+        },
+        {
+          "element": "h3",
+          "text": "Verify"
+        },
+        {
+          "element": "p",
+          "text": "Review a walk or journey and share with the owner."
+        },
+        {
+          "element": "h2",
+          "text": "Useful visibility. Grounded in the details."
+        },
+        {
+          "element": "h3",
+          "text": "Stay aware"
+        },
+        {
+          "element": "p",
+          "text": "See location updates when your pet is on the move."
+        },
+        {
+          "element": "h3",
+          "text": "Review the walk"
+        },
+        {
+          "element": "p",
+          "text": "Use journey records to add context to animal services."
+        },
+        {
+          "element": "h3",
+          "text": "Share with care"
+        },
+        {
+          "element": "p",
+          "text": "Let authorised owners see relevant information."
+        },
+        {
+          "element": "h2",
+          "text": "Tell us what you need to see."
+        },
+        {
+          "element": "p",
+          "text": "LensFleet is in development. Register your interest and share your requirements."
+        }
+      ]
+    },
+    {
+      "route": "/solutions/security",
+      "blocks": [
+        {
+          "element": "h1",
+          "text": "When something happens, keep the context."
+        },
+        {
+          "element": "p",
+          "text": "Connect body-worn cameras, live views, and incident records for authorised security teams."
+        },
+        {
+          "element": "h2",
+          "text": "“What happened at the incident, who was there, and will the recording stand up?”"
+        },
+        {
+          "element": "p",
+          "text": "Connect incident recordings with their time, location, and evidence access history. Support your chain-of-custody process with controlled access and exports."
+        },
+        {
+          "element": "h3",
+          "text": "Incident recorded at 21:16."
+        },
+        {
+          "element": "p",
+          "text": "Recording linked. Access history linked."
+        },
+        {
+          "element": "h2",
+          "text": "The moment. And the record behind it."
+        },
+        {
+          "element": "p",
+          "text": "An illustrative incident record for an authorised review."
+        },
+        {
+          "element": "li",
+          "text": "Body-worn camera recordings"
+        },
+        {
+          "element": "li",
+          "text": "Control-room live view"
+        },
+        {
+          "element": "li",
+          "text": "Time and location context"
+        },
+        {
+          "element": "li",
+          "text": "Incident evidence records"
+        },
+        {
+          "element": "li",
+          "text": "Evidence access logs"
+        },
+        {
+          "element": "li",
+          "text": "Controlled exports and sharing"
+        },
+        {
+          "element": "h2",
+          "text": "From the event to the useful record."
+        },
+        {
+          "element": "h3",
+          "text": "Connect"
+        },
+        {
+          "element": "p",
+          "text": "Connect cameras for authorised teams."
+        },
+        {
+          "element": "h3",
+          "text": "See"
+        },
+        {
+          "element": "p",
+          "text": "Capture the incident and its event context."
+        },
+        {
+          "element": "h3",
+          "text": "Verify"
+        },
+        {
+          "element": "p",
+          "text": "Review access history and export relevant evidence."
+        },
+        {
+          "element": "h2",
+          "text": "Useful visibility. Grounded in the details."
+        },
+        {
+          "element": "h3",
+          "text": "Review with context"
+        },
+        {
+          "element": "p",
+          "text": "See the recorded moment alongside time and location information."
+        },
+        {
+          "element": "h3",
+          "text": "Support accountability"
+        },
+        {
+          "element": "p",
+          "text": "Use access history to understand who reviewed a record."
+        },
+        {
+          "element": "h3",
+          "text": "Control the handover"
+        },
+        {
+          "element": "p",
+          "text": "Share relevant evidence with authorised recipients."
+        },
+        {
+          "element": "h2",
+          "text": "Tell us what you need to see."
+        },
+        {
+          "element": "p",
+          "text": "LensFleet is in development. Register your interest and share your requirements."
+        }
+      ]
+    },
+    {
+      "route": "/solutions/transport-logistics",
+      "blocks": [
+        {
+          "element": "h1",
+          "text": "Every journey has a story. Keep the record."
+        },
+        {
+          "element": "p",
+          "text": "From Lagos bus routes to the last delivery, connect the journey with the moments that explain it."
+        },
+        {
+          "element": "h2",
+          "text": "“Did it get there, on the route we agreed, and can I show the customer?”"
+        },
+        {
+          "element": "p",
+          "text": "Bring the GPS journey, route adherence, delivery clips, and passenger counts into one connected record."
+        },
+        {
+          "element": "h3",
+          "text": "Bus 14 arrived at Oshodi at 07:42."
+        },
+        {
+          "element": "p",
+          "text": "23 passengers. Clip saved."
+        },
+        {
+          "element": "h2",
+          "text": "The moment. And the record behind it."
+        },
+        {
+          "element": "p",
+          "text": "Arrival, location, and a recorded moment, together."
+        },
+        {
+          "element": "li",
+          "text": "GPS tracking and journey history"
+        },
+        {
+          "element": "li",
+          "text": "Timestamped proof-of-delivery clips"
+        },
+        {
+          "element": "li",
+          "text": "Route adherence and geofence events"
+        },
+        {
+          "element": "li",
+          "text": "Passenger counts with passenger-counting cameras"
+        },
+        {
+          "element": "li",
+          "text": "Shareable journey replay"
+        },
+        {
+          "element": "li",
+          "text": "Controlled evidence links"
+        },
+        {
+          "element": "h2",
+          "text": "From the event to the useful record."
+        },
+        {
+          "element": "h3",
+          "text": "Connect"
+        },
+        {
+          "element": "p",
+          "text": "Connect the vehicle, tracker, and camera."
+        },
+        {
+          "element": "h3",
+          "text": "See"
+        },
+        {
+          "element": "p",
+          "text": "Follow the route and review arrival events."
+        },
+        {
+          "element": "h3",
+          "text": "Verify"
+        },
+        {
+          "element": "p",
+          "text": "Review the clip and share the journey record."
+        },
+        {
+          "element": "h2",
+          "text": "Useful visibility. Grounded in the details."
+        },
+        {
+          "element": "h3",
+          "text": "Explain the journey"
+        },
+        {
+          "element": "p",
+          "text": "Review where a vehicle went, when it arrived, and recordings."
+        },
+        {
+          "element": "h3",
+          "text": "Resolve the question"
+        },
+        {
+          "element": "p",
+          "text": "Bring delivery records and clips into the same conversation."
+        },
+        {
+          "element": "h3",
+          "text": "Understand bus activity"
+        },
+        {
+          "element": "p",
+          "text": "Review passenger entries and exits with counting cameras."
+        },
+        {
+          "element": "h2",
+          "text": "Tell us what you need to see."
+        },
+        {
+          "element": "p",
+          "text": "LensFleet is in development. Register your interest and share your requirements."
+        }
+      ]
+    },
+    {
+      "route": "/terms",
+      "blocks": [
+        {
+          "element": "h1",
+          "text": "Website terms"
+        },
+        {
+          "element": "p",
+          "text": "This expanded draft describes the development-stage website and identifies the decisions still awaiting approval. It is not an adopted policy or service agreement."
+        },
+        {
+          "element": "h2",
+          "text": "About this website"
+        },
+        {
+          "element": "p",
+          "text": "LensFleet Limited provides this marketing website to explain its tracking, camera and journey-record services. Contact info@lensfleet.com or write to the registered office shown in the footer. These draft website terms are not a subscription or service agreement."
+        },
+        {
+          "element": "h2",
+          "text": "Enquiries and quotations"
+        },
+        {
+          "element": "p",
+          "text": "Submitting a form asks the team to contact you. It does not create an account, confirm an order or reserve a price. Device models, installation, subscriptions, connectivity, recording storage and support must be set out in a separate written proposal."
+        },
+        {
+          "element": "h2",
+          "text": "Demonstrations and examples"
+        },
+        {
+          "element": "p",
+          "text": "Example journey records and product illustrations explain workflows. They do not represent a customer case study, actual incident or verified pilot result. Home launch interest can be registered through the waitlist enquiry form."
+        },
+        {
+          "element": "h2",
+          "text": "Use of the website"
+        },
+        {
+          "element": "p",
+          "text": "Send accurate enquiry details and do not submit private recordings or sensitive incident information through this form. Recording, tracking people and sharing evidence require a separate assessment and agreed permissions for the intended use."
+        },
+        {
+          "element": "h2",
+          "text": "Service agreement — awaiting approval"
+        },
+        {
+          "element": "p",
+          "text": "The owner must approve the contracting entity’s exact registered name, account terms, fees, cancellation, service commitments, warranties, liability provisions, applicable law and dispute process before these terms can be adopted. Product contracts and privacy terms must be supplied before customer onboarding. LensFleet is in development; this website does not accept product orders."
+        },
+        {
+          "element": "p",
+          "text": "For enquiries, contact info@lensfleet.com."
+        }
+      ]
+    }
+  ],
+  "shared_content": [
+    {
+      "source": "capabilities",
+      "text_literals": [
+        "Real-time GPS tracking",
+        "See live locations for connected vehicles, people, and devices.",
+        "Tracking",
+        "Dashcam live view and playback",
+        "See camera views and return to recorded road moments.",
+        "Cameras",
+        "Body-worn camera recordings",
+        "Connect field live views with relevant incident recordings.",
+        "Cameras",
+        "Passenger counting",
+        "Review entries and exits with passenger-counting cameras.",
+        "Operations",
+        "Journey replay",
+        "Follow the route and review recorded events.",
+        "Tracking",
+        "Route adherence",
+        "Compare a journey with the route your operation agreed.",
+        "Tracking",
+        "Geofence alerts",
+        "Receive notifications around meaningful places.",
+        "Tracking",
+        "Proof-of-delivery clips",
+        "Give an arrival record visual context through a clip.",
+        "Cameras",
+        "Asset location and history",
+        "Check positions, last movement, and historical activity.",
+        "Operations",
+        "Controlled evidence sharing",
+        "Share records with authorised recipients.",
+        "Operations",
+        "Operational insights",
+        "Turn journey and event records into useful context.",
+        "Operations",
+        "Family and pet location sharing",
+        "Stay connected with consent and devices.",
+        "Home"
+      ]
+    },
+    {
+      "source": "sentinelGroups",
+      "text_literals": [
+        "Fleet visibility",
+        "Follow movement. Keep the journey in context.",
+        "Vehicle location and journey history",
+        "Route adherence and geofence events",
+        "Operational alerts",
+        "Visual verification",
+        "Return to the moment that explains the event.",
+        "Dashcam recordings and live views",
+        "Recorded journey events and delivery evidence",
+        "Journey replay",
+        "Passenger counting",
+        "See passenger activity alongside the bus journey.",
+        "Cabin-camera passenger counts",
+        "Passengers entering and leaving buses",
+        "Counts linked to operational context",
+        "Security evidence",
+        "Bring field recordings into an authorised review.",
+        "Body-worn camera recordings",
+        "Control-room live view and incident records",
+        "Access history and controlled evidence exports",
+        "Asset intelligence",
+        "Know where it is and when it last moved.",
+        "Current and last-known asset location",
+        "Last movement time and movement history",
+        "Geofence events and relevant summaries",
+        "Evidence sharing",
+        "Give the right people the record.",
+        "Authorised clips and journey records",
+        "Controlled, time-limited share links",
+        "Evidence access history"
+      ]
+    },
+    {
+      "source": "homeGroups",
+      "text_literals": [
+        "Family location sharing",
+        "Share your location with the people you choose. Keep permissions clear and visibility in your control.",
+        "Consent-based family sharing",
+        "Clear location permissions",
+        "Useful saved places",
+        "Pet tracking",
+        "Keep pets in reach with a tracker, location information, and geofence alerts.",
+        "Pet location and movement",
+        "Garden and place alerts",
+        "Journey records",
+        "Home visibility",
+        "Connected home cameras bring live views and recordings into your household experience.",
+        "Live camera views",
+        "Recorded moments",
+        "Authorised household access",
+        "Travel and everyday journeys",
+        "Stay connected on a family holiday or an everyday trip with shared location and journey information.",
+        "Real-time location sharing",
+        "Family vacation visibility",
+        "Journey information",
+        "Household alerts",
+        "Know about location changes around the places that matter to your household.",
+        "Geofence events",
+        "Arrival and departure information",
+        "Control over shared visibility"
+      ]
+    }
+  ]
+}

@@ -129,3 +129,7 @@ Official references: https://render.com/docs/free , https://render.com/docs/web-
 ## Review implementation
 
 See `REVIEW-FIXES.md` for the supplied review IDs, completed changes and owner-dependent launch requirements. The initial homepage asset estimate is about 282 KB with gzip and 800px AVIF images, including all six sector photographs, the font and the extra hero image. This is a build estimate, not a measured Lagos 3G result.
+
+## Product stage
+
+The owner confirmed that the app is in development. A shared notice frames website capabilities as planned, examples are labelled, and calls to action collect interest rather than promise a working demo. The original Brand Book files remain unchanged; the build adapts the published story to this newer status. No active pilot, production-ready feature, certification, launch date or live product offer is asserted. See `review/CLAIMS-AUDIT.md` for evidence requirements.
