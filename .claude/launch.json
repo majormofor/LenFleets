@@ -1,0 +1,19 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "lensfleet-dev",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "dev"],
+      "port": 5173,
+      "autoPort": true
+    },
+    {
+      "name": "lensfleet-server",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["start"],
+      "port": 4173,
+      "autoPort": true
+    }
+  ]
+}

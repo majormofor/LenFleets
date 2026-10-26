@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { structuredData } from './content/schema';
-import { Header, Footer } from './components/Layout';
+import { Header, Footer, MobileCTABar } from './components/Layout';
 import { AboutPage, ContactPage, HomePage, HouseholdPage, IndustryPage, LegalPage, NotFoundPage, PlatformPage, SentinelPage, SolutionsPage } from './pages';
 import { DevicesPage, PricingPage, ResourcesPage, SecurityPage, GuidePage, guides } from './MorePages';
 import { metadata, solutions } from './content/site';
@@ -38,5 +38,5 @@ export function App({initialPath='/',initialSearch=''}:{initialPath?:string;init
  else if(path==='/contact')page=<ContactPage key={location.search} demo={new URLSearchParams(location.search).has('demo')||new URLSearchParams(location.search).has('early')} waitlist={new URLSearchParams(location.search).get('waitlist')==='home'} quote={new URLSearchParams(location.search).get('quote')||''}/>;
  else if(path==='/privacy'||path==='/terms')page=<LegalPage type={path.slice(1) as 'privacy'|'terms'}/>;
  else page=<NotFoundPage/>;
- return <><a className="skip-link" href="#main">Skip to content</a><Header path={path+location.search}/><main id="main" tabIndex={-1} key={path}>{page}</main><Footer/></>;
+ return <><a className="skip-link" href="#main">Skip to content</a><Header path={path+location.search}/><main id="main" tabIndex={-1} key={path}>{page}</main><Footer/><MobileCTABar path={path}/></>;
 }

@@ -35,5 +35,63 @@ h1,h2,h3{font-weight:600}.hero-copy h1{font-weight:700}.eyebrow{font:var(--type-
 svg.lucide{stroke-width:1.5}.group-icon,.privacy-list>article>svg,.principles-grid article>svg,.device-grid article>svg,.benefit-grid article>svg{color:var(--ink-muted)}.evidence-icon svg{color:var(--green-text)}.status-dot{background:var(--blue);box-shadow:none}
 .journey-timeline,.proof-record-bottom,.evidence-card p{font-variant-numeric:tabular-nums}.about-intro p+p{margin-top:22px}
 
-.development-notice{background:var(--surface-raised);border-bottom:1px solid var(--line);color:var(--ink);padding:12px 0}.development-notice>.container{display:flex;align-items:center;gap:20px}.development-notice strong{font-size:12px;line-height:1.5;letter-spacing:var(--tracking-label);text-transform:uppercase;flex-shrink:0}.development-notice p{font-size:15px;line-height:1.5;flex:1}.development-notice a{display:inline-flex;align-items:center;gap:6px;color:var(--blue-text);font-size:15px;font-weight:600;flex-shrink:0;min-height:28px}.record-explainer{margin-top:40px;padding:25px;border:1px solid var(--line);border-radius:var(--radius-md);max-width:850px}.record-explainer h2{font-size:24px;margin-bottom:12px}.record-explainer p{font-size:17px}.planned-list-marker{display:block;width:7px;height:7px;flex-shrink:0;margin-top:10px;border:1px solid var(--ink-muted);border-radius:var(--radius-full)}.check-list li{color:var(--ink-muted)}
-@media(max-width:760px){.development-notice>.container{display:grid;grid-template-columns:1fr auto;gap:8px 15px}.development-notice p{grid-column:1/-1;grid-row:2;font-size:15px}.development-notice a{font-size:15px}.record-explainer{padding:20px}.record-explainer p{font-size:16px}}
+.record-explainer{margin-top:40px;padding:25px;border:1px solid var(--line);border-radius:var(--radius-md);max-width:850px}.record-explainer h2{font-size:24px;margin-bottom:12px}.record-explainer p{font-size:17px}.check-list-marker{display:block;width:7px;height:7px;flex-shrink:0;margin-top:10px;border:1px solid var(--ink-muted);border-radius:var(--radius-full)}.check-list li{color:var(--ink-muted)}
+@media(max-width:760px){.record-explainer{padding:20px}.record-explainer p{font-size:16px}}
+
+
+/* ============================================================
+   AUDIT FIXES — appended last so these win the cascade.
+   Each rule states the measured problem it solves.
+   ============================================================ */
+
+/* 1. Cards were invisible. Card fill measured 1.17:1 against the page and the
+      border 1.34:1 against the card, so nothing read as a card. The border now
+      uses the existing brand token --graphite-700, measuring 2.13:1 against
+      the card. No new colours introduced. */
+.group-card,.solution-card,.product-card,.price-card,.resource-card,.feature-panel,
+.record-explainer,.evidence-card,.proof-record,.waitlist-box,.contact-form,
+.device-grid article,.device-page-grid article,.trust-grid article,.company-facts article{
+ border-color:var(--graphite-700)}
+
+/* 2. Form fields had the same problem: a 1.34:1 edge is hard to locate. */
+input,select,textarea{border-color:var(--graphite-700)}
+input:focus-visible,select:focus-visible,textarea:focus-visible{border-color:var(--focus)}
+
+/* Sticky mobile call-to-action bar. Hidden by default; shown only above. */
+.mobile-cta-bar{display:none;position:fixed;left:0;right:0;bottom:0;z-index:60;
+ gap:1px;background:var(--line);border-top:1px solid var(--line);
+ padding-bottom:env(safe-area-inset-bottom,0px)}
+.mobile-cta-bar>a{flex:1;display:flex;align-items:center;justify-content:center;gap:8px;
+ min-height:56px;font:var(--type-button);text-align:center;text-decoration:none}
+.mobile-cta-bar>a.cta-primary{background:var(--blue);color:var(--surface-sunken)}
+.mobile-cta-bar>a.cta-secondary{background:var(--surface-raised);color:var(--ink)}
+
+@media(max-width:760px){
+ /* 3. The only call to action on every page was hidden on every phone
+       (.header-actions .btn{display:none}). Mobile is the primary channel in
+       Nigeria, so the button comes back, sized to fit beside the logo. */
+ .header-actions .btn{display:inline-flex;min-height:44px;padding:10px 14px;font-size:14px;gap:8px}
+ .header-actions .btn>svg{display:none}
+ .cta-label-long{display:none}
+ .cta-label-short{display:inline}
+
+ /* 4. The hero headline had a 76px floor at 20vw, so two words filled a phone
+       screen and pushed the buttons to roughly y=685 on a 390x844 device —
+       below the fold. This brings the primary CTA back into the first screen. */
+ .hero-copy h1{font-size:clamp(38px,10.5vw,52px);letter-spacing:-1.6px;line-height:1.08}
+
+ /* 5. Footer and legal links measured 26px tall against a 44px minimum
+       touch target, stacked in a column — a mis-tap generator. */
+ .site-footer a:not(.wordmark){min-height:44px;display:flex;align-items:center;margin-bottom:4px}
+ .footer-legal a{display:inline-flex;align-items:center;min-height:44px;padding:0 10px}
+ .hero-product-paths a{display:inline-flex;align-items:center;min-height:44px}
+
+ /* 6. Pages run 3700-4600px tall with no call to action in reach after the
+       first screen. A persistent bar fixes that without any scroll JS. */
+ .mobile-cta-bar{display:flex}
+ body{padding-bottom:calc(64px + env(safe-area-inset-bottom,0px))}
+
+ /* 7. Continuous backdrop blur on a sticky header is a known scroll-jank and
+       battery cost on low-end Android. The header is opaque anyway. */
+ .site-header{backdrop-filter:none}
+}
