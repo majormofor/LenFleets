@@ -68,3 +68,7 @@ No operator was contacted, no testimonial or result was invented, and no legal p
 ## Copy inventory
 
 `copy-inventory.json` records the rendered main-page text blocks for all 22 routes, plus the shared capability/group text used by interactive tabs. It is a coverage aid for the audit above, not an automated truth checker or a substitute for source evidence. Navigation labels and shared footer content are checked separately in the site build.
+
+## Owner update — 26 October 2026
+
+The owner confirmed that the business is registered in Nigeria and the UK. The homepage strip and About page now reflect both countries. The existing UK legal disclosure remains specific to its supplied company number and office. No Nigerian legal entity name, registration number or registered office was inferred; those details are still needed for a separate Nigerian legal disclosure.
