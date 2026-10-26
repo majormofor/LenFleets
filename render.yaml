@@ -14,6 +14,11 @@ services:
         value: 0.0.0.0
       - key: CONTACT_TO_EMAIL
         value: info@lensfleet.com
+      # Render terminates TLS at a load balancer, so without this every visitor
+      # shares one socket address and the contact rate limit applies site-wide:
+      # a few submissions would lock out everyone else.
+      - key: TRUST_PROXY
+        value: "1"
 # Optional email delivery secrets are added in Render's Environment settings:
 # RESEND_API_KEY and CONTACT_FROM_EMAIL. Do not commit their real values.
 # RENDER_EXTERNAL_URL supplies the allowed origin and canonical domain.
