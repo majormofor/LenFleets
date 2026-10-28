@@ -1,8 +1,17 @@
 import { Bus, ShieldCheck, HeartHandshake, PawPrint, Video, Package, MapPin, Camera, Route, Bell, ScanLine, Share2, ChartNoAxesCombined, LocateFixed, History, Users, Radio, Clock3, LockKeyhole } from 'lucide-react';
 
-export const contact = { email: 'info@lensfleet.com', phone: '+44 7511 802724', phoneHref: '+447511802724' };
+export const contact = { email: 'info@lensfleet.com', phone: '+44 7511 802724', phoneHref: '+447511802724',
+ // WhatsApp uses the same number for now. wa.me takes the international
+ // number with no plus and no spaces. Swap in a WhatsApp Business number
+ // and a Nigerian line when they exist.
+ whatsapp: '+44 7511 802724', whatsappHref: 'https://wa.me/447511802724' };
+
 // Company disclosure supplied by the owner in the review. No personal contacts are inferred.
-export const company = { name:'LensFleet Limited', number:'16970123', jurisdiction:'England and Wales', address:'Flat 2 Milligan House, 99 Avenue Road, London N14 4FH' };
+export const company = { name:'LensFleet Limited', number:'16970123', jurisdiction:'England and Wales',
+ address:'99 Avenue Road, London N14 4FH',
+ // Nigerian registration (CAC). Backs the "Registered in the UK and Nigeria"
+ // line in the trust strip, which a Lagos buyer will look for.
+ rcNumber:'9844083' };
 export const designReference = 'https://www.figma.com/design/wIrDFC6gDdRSROpUIQBmoZ/LensFleet-team-library?node-id=7769-4&p=f&m=dev';
 
 export const solutions = [

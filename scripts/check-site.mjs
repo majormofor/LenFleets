@@ -17,7 +17,6 @@ for(const path of expected){
  assert.ok(html.includes('twitter:card'),`${path}: sharing metadata missing`);
  const description=html.match(/<meta name="description" content="([^"]+)/)?.[1];assert.ok(!descriptions.has(description),`${path}: duplicate description`);descriptions.add(description);
  assert.ok(html.includes('/brand/lensfleet-lockup-white.svg'),`${path}: transparent brand logo missing`);
- assert.ok(html.includes('company no.'),`${path}: company disclosure missing`);
  for(const image of html.matchAll(/<img\b[^>]+>/g)){assert.match(image[0],/width="\d+"/,`${path}: image width missing`);assert.match(image[0],/height="\d+"/,`${path}: image height missing`)}
  for(const heading of html.matchAll(/<h[12]\b[^>]*>([\s\S]*?)<\/h[12]>/g))assert.ok(!/[^\s>]<(?:br)[\s/>]/.test(heading[1]),`${path}: missing space before heading line break`);
  assert.ok(html.includes('id="site-schema"'),`${path}: structured data missing`);
@@ -31,6 +30,12 @@ assert.ok((await readFile('dist/robots.txt','utf8')).includes('User-agent'));
 assert.ok((await readFile('dist/sitemap.xml','utf8')).includes('urlset'));
 console.log(`Verified ${expected.length} page documents, unique metadata, semantic headings, legal draft labels, and ${checkedLinks} internal/asset references.`);
 
+// UK trading-disclosure rules require the registered name, number, place of
+// registration and registered office somewhere on the website. It no longer
+// sits in the global footer, so assert it on the Contact page instead.
+const contactPage=await readFile('dist/contact/index.html','utf8');
+for(const required of ['company no.','16970123','England and Wales','99 Avenue Road','9844083'])
+  assert.ok(contactPage.includes(required),`/contact: statutory company disclosure missing "${required}"`);
 const home=await readFile('dist/index.html','utf8');
 assert.equal((home.match(/<section\b/g)||[]).length,6,'Home must have six sections');
 assert.ok(!home.includes('connected toolkit'),'Toolkit belongs on Platform');
