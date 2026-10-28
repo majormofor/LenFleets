@@ -8,3 +8,7 @@ tracker/
 .env.*
 !.env.example
 tmp/
+
+# Holds the live Resend key on PHP hosting. Never commit, never ship in a zip.
+public/contact-config.php
+contact-config.php
